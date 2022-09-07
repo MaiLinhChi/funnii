@@ -1,0 +1,13 @@
+.listGame{
+    display: flex;
+    justify-content: center;
+
+}
+.nameGame{
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+}
+.card:hover{
+    
+}

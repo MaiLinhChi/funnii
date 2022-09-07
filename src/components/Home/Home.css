@@ -1,0 +1,36 @@
+.homePage {
+    text-align: center;
+}
+
+#slogan {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1E1C31;
+}
+
+#slogan2 {
+    color: #1E1C3199;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 76px;
+}
+button{
+    background: #4270EC;
+    border-radius: 15px;
+    width: 170px;
+    height: 49px;
+    color: white;
+    font-weight: 500;
+    border-style: hidden;
+}
+button:hover{
+    background-color: #2a5de7;
+}
+
+

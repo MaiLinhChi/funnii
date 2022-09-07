@@ -1,0 +1,38 @@
+.Footer{
+    color: #222136;
+    margin: 0 141px 0 141px;
+}
+
+h5{
+    font-weight: bolder !important;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#input_email{
+    border-radius: 9px;
+    border-style: hidden;
+    width: 70%;
+    height: 40px;
+    background-color: #ECF0FC;
+    padding-left: 20px;
+}
+
+p{
+    line-height: 28px;
+}
+
+.Icon{
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Footer{
+        color: #222136;
+        margin: 0;
+    }
+    .logoBottom{
+        height: 40px;
+    }
+
+}
