@@ -1,13 +1,43 @@
+.ourGame{
+    margin-top: 120px;
+}
 .listGame{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 60px;
+}
 
+
+.ourGame p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
 }
 .nameGame{
-    font-weight: 600;
-    font-size: 25px;
+    font-weight: 600 !important;
+    font-size: 25px !important;
     color: black;
 }
-.card:hover{
-    
+.card{
+    transition: transform 0.5s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.card:hover > p{
+    color: #3CF61E;
+}
+
+
+@media screen and (max-width: 600px) {
+    .card img{
+        width: 150px;
+    }
+    .listGame{
+        gap: 10px;
+    }
+    .nameGame{
+        font-size: 16px !important;
+    }
 }

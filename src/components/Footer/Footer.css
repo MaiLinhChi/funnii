@@ -1,9 +1,9 @@
 .Footer{
     color: #222136;
-    margin: 0 141px 0 141px;
+    margin: 230px 141px 0 141px;
 }
 
-h5{
+.Footer h5{
     font-weight: bolder !important;
     font-size: 18px;
     line-height: 28px;
@@ -17,22 +17,37 @@ h5{
     background-color: #ECF0FC;
     padding-left: 20px;
 }
-
-p{
-    line-height: 28px;
+.ant-col{
+    width: 100%;
 }
 
-.Icon{
+.Footer p{
+    font-size: 14px !important;
+}
+
+.Footer .Icon{
     padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
     .Footer{
         color: #222136;
-        margin: 0;
+        margin: 70px 20px 0 20px;
+        text-align: center;
     }
-    .logoBottom{
+    .Footer .logoBottom{
         height: 40px;
     }
+    .ant-col{
+        margin-top: 5px;
+    }
+    .hidden{
+        display: none;
+    }
+    .Icon{
+        height: 60px;
+        width: 60px;
+    }
+
 
 }

@@ -1,57 +1,57 @@
 import Images from '../../config/Images';
 import './Header.css'
 import React, { useState } from 'react';
-
-import { Anchor, Drawer, Button } from 'antd';
-
-const { Link } = Anchor;
+import { Link } from 'react-router-dom'
+import { Drawer } from 'antd';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
 
-    const [visible, setVisible] = useState(false);
+    const [open, setOpen] = useState(false);
 
     const showDrawer = () => {
-        setVisible(true);
+        setOpen(true);
     };
 
     const onClose = () => {
-        setVisible(false);
+        setOpen(false);
     };
     return (
-        <div className="container-fluid">
+        <nav className="container-fluid">
             <div className="header">
                 <div className="logo">
                     <a href=""><img src={Images.logo} alt="" /></a>
                 </div>
                 <div className="mobileVisible">
+
                     <img src={Images.menu} alt="" onClick={showDrawer} />
                     <Drawer
                         placement="right"
-                        closable={false}
+                        closable={true}
                         onClose={onClose}
-                        visible={visible}
+                        open={open}
                     >
                         <ul targetOffset="65">
-                            <li><a href=""><img src={Images.logoBottom} alt="" /></a></li>
+                            <li><NavLink to="/home"><img src={Images.logoBottom} alt="" /></NavLink></li>
                             <br />
-                            <li href="#" title="HOME"><a href="">HOME</a></li>
-                            <li href="#" title="GAMES"><a href="">GAMES</a></li>
-                            <li href="#" title="CAREERS"><a href="">CAREERS</a></li>
-                            <li href="#" title="ABOUT US"><a href="">ABOUT US</a></li>
+                            <li><NavLink to="/home" style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}} onClick={onClose}>HOME </NavLink></li>
+                            <li><NavLink to="/games" style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}} onClick={onClose}>GAMES</NavLink></li>
+                            <li><NavLink to="" onClick={onClose} style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}} >CAREERS</NavLink></li>
+                            <li><NavLink to="/about" style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}} onClick={onClose}>ABOUT US</NavLink></li>
                         </ul>
                     </Drawer>
                 </div>
                 <div className="mobileHidden">
                     <ul targetOffset="65" >
-                        <li href="#" title="HOME"><a href="">HOME</a></li>
-                        <li href="#" title="GAMES"><a href="">GAMES</a></li>
-                        <li href="#" title="CAREERS"><a href="">CAREERS</a></li>
-                        <li href="#" title="ABOUT US"><a href="">ABOUT US</a></li>
+                        <li><NavLink isActive to='/home' style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}} >HOME</NavLink></li>
+                        <li><NavLink to="/games" style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}}>GAMES</NavLink></li>
+                        <li><NavLink to="">CAREERS</NavLink></li>
+                        <li><NavLink to="/about" style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}}>ABOUT US</NavLink></li>
                     </ul>
                 </div>
 
             </div>
-        </div>
+        </nav>
 
     );
 }

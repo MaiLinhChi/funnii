@@ -28,9 +28,7 @@ function OurGame() {
                     <img src={Images.game5} alt="" />
                     <p className="nameGame">Game Name</p>
                 </div>
-                
             </div>
-            <br />
             <button>See more</button>
         </div>
     );
