@@ -55,9 +55,13 @@
    
 }
 
-.imgWork img:hover{
-    transform: scale(1.1);
+.ant-image-mask:hover{
+    border-radius: 35px;
 }
+
+/* .imgWork img:hover{
+    transform: scale(1.1);
+} */
 
 .mobileHiddenBg{
     display: none;

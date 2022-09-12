@@ -2,6 +2,9 @@ import Images from "../../config/Images";
 import React from "react";
 import './AboutPage.css'
 import Clients from "../Client/Clients";
+import { Image } from 'antd';
+
+
 function AboutPage() {
     return (
         <div className="AboutPage">
@@ -27,12 +30,14 @@ function AboutPage() {
             <div className="work">
                 <h2>Work from <span style={{ color: 'red' }}>anywhere in the world</span></h2>
                 <p>Our employees choose whether to work from home, a coworking space, or one of our many offices.</p>
-                <div className="imgWork">
-                    <img src={Images.work1} alt="" />
-                    <img src={Images.work2} alt="" />
-                    <img src={Images.work3} alt="" />
-                    <img src={Images.work4} alt="" />
+                <div class="imgWork">
+                    <Image.PreviewGroup >
+                        <Image src={Images.work1} alt="" />
+                        <Image src={Images.work2} alt="" />
+                        <Image src={Images.work3} alt="" />
+                        <Image src={Images.work4} alt="" />
                     
+                    </Image.PreviewGroup>
                 </div>
             </div>
             <Clients></Clients>
