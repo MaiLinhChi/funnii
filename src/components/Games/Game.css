@@ -1,38 +1,83 @@
-.GamePage{
+.GamePage {
     text-align: center;
-}   
-.GamePage .backgroundGamePage{
-    background-size:cover;
+}
+
+.GamePage .backgroundGamePage {
+    background-size: cover;
     width: 100%;
 }
 
-.topGame{
-    margin-top:120px
+.topGame {
+    margin-top: 120px
 }
 
-.listToGame{
+.listToGame {
     display: flex;
-    flex: 0 0 33.333333%;
     flex-wrap: wrap;
-    gap: 55px;
+    gap: 100px;
+    row-gap: 40px;
     justify-content: center;
 }
 
-.cardGame{
+.cardGame {
     transition: transform 0.5s;
-    flex: 0 0 25%;
-
+    position: relative;
 }
 
-.cardGame:hover{
+.cardGame .gameInfo {
+    position: absolute;
+    z-index: 2;
+    left: 18px;
+    right: 18px;
+    bottom: 35px;
+}
+
+.gameInfo h3 {
+    color: white !important;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.gameInfo p {
+    color: white !important;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.cardGame::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 28.18%, #1D3982 91.99%);
+    z-index: 1;
+    border-radius: 25px;
+}
+.slick-slider {
+    display: none;
+}
+
+.cardGame:hover {
     transform: scale(1.1);
 }
-@media only screen and (max-width: 600px) {
-    .cardGame img{
-        width:90%;
+
+@media only screen and (max-width: 480px) {
+    .cardGame:hover {
+        transform: scale(1);
     }
+
+    .listToGame {
+        display: none;
+    }
+    .slick-slider {
+        display: block;
+    }
+    
+}
+@media (min-width:481px) and (max-width:1024px) {
     .listToGame{
-        gap:10px;
-        flex: 0 0 15%
+        gap: 30px
     }
 }

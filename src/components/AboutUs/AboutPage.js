@@ -1,14 +1,18 @@
 import Images from "../../config/Images";
-import React from "react";
+import {React, useEffect} from "react";
 import './AboutPage.css'
 import Clients from "../Client/Clients";
 import { Image } from 'antd';
 
 
 function AboutPage() {
+    useEffect(() => {
+        document.title = 'About Us - Funnii';
+    });
+
     return (
         <div className="AboutPage">
-            <div className="mobileHiddenBg"> 
+            <div className="mobileDisplayBg"> 
                     <h2>We are <span style={{ color: 'red' }}> Funnii</span></h2>
                     <p>An international digital games and entertainment company.
                         A leader in multiplayer games, with a purpose to ‘unleash the gamer in everyone’ with more than 4 billion downloads to date.
@@ -16,13 +20,12 @@ function AboutPage() {
             </div>
             <div className="bgInfo">
                 <img src={Images.bgAbout} alt="" className="bgAbout" />
-                {/* <div className="bgContent"> 
+                <div className="bgContent mobileHiddenContent"> 
                     <h2>We are Funnii</h2>
                     <p>An international digital games and entertainment company.
                         A leader in multiplayer games, with a purpose to ‘unleash the gamer in everyone’ with more than 4 billion downloads to date.
                         Powered by amazing people.</p>
-                </div> */}
-
+                </div>
             </div>
             <div class="philosophy">
                 <h2 >We aim to <span style={{ color: 'red' }}>inspire</span> rather than manage our employees</h2>
@@ -36,7 +39,6 @@ function AboutPage() {
                         <Image src={Images.work2} alt="" />
                         <Image src={Images.work3} alt="" />
                         <Image src={Images.work4} alt="" />
-                    
                     </Image.PreviewGroup>
                 </div>
             </div>

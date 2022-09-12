@@ -1,6 +1,7 @@
 .homePage {
     text-align: center;
     margin-top: 100px;
+    width: 100%;
 }
 
 #slogan {
@@ -39,11 +40,10 @@ p{
     color:#1E1C31;
 }
 .backgroundHome{
-    justify-content: center;
     display: flex;
- 
+    flex-wrap: nowrap;
+    justify-content: center;
 }
-
 
 .Company{
     margin-top: 120px;    
@@ -81,11 +81,12 @@ p{
     border-radius: 35px;
 }
 
-.client{
-    margin-top: 120px;
-}
+
 
 @media only screen and (max-width: 600px) {
+    .homePage{
+        margin-top: 50px;
+    }
     h1{
         font-size: 50px !important;
     }
@@ -105,7 +106,16 @@ p{
     .backgroundHome img{
         width: 100%;
     }
+    .companyBG:before{
+        border-radius: 15px;
+    }
+    .backgroundHome{
+        flex-direction: row-reverse;
+        margin-top: 10px;
+        gap: 0;
+    }
 }
+
 
 
 

@@ -20,7 +20,7 @@ function Header() {
         <nav className="container-fluid">
             <div className="header">
                 <div className="logo">
-                    <a href=""><img src={Images.logo} alt="" /></a>
+                    <NavLink to="/home"><img src={Images.logo} alt="" /></NavLink>
                 </div>
                 <div className="mobileVisible">
 
@@ -36,7 +36,7 @@ function Header() {
                             <br />
                             <li><NavLink to="/home" style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}} onClick={onClose}>HOME </NavLink></li>
                             <li><NavLink to="/games" style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}} onClick={onClose}>GAMES</NavLink></li>
-                            <li><NavLink to="" onClick={onClose} style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}} >CAREERS</NavLink></li>
+                            <li><NavLink to="..." onClick={onClose} style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}} >CAREERS</NavLink></li>
                             <li><NavLink to="/about" style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}} onClick={onClose}>ABOUT US</NavLink></li>
                         </ul>
                     </Drawer>
@@ -45,7 +45,7 @@ function Header() {
                     <ul targetOffset="65" >
                         <li><NavLink isActive to='/home' style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}} >HOME</NavLink></li>
                         <li><NavLink to="/games" style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}}>GAMES</NavLink></li>
-                        <li><NavLink to="">CAREERS</NavLink></li>
+                        <li><NavLink to="...">CAREERS</NavLink></li>
                         <li><NavLink to="/about" style={({isActive}) => {return {color: isActive ? 'red' : 'grey'}}}>ABOUT US</NavLink></li>
                     </ul>
                 </div>

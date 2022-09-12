@@ -20,14 +20,16 @@ h2 {
 
 .discover_info {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3%;
     justify-content: center;
-    gap: 5%;
+    align-content: center;
 }
 
 .info_detail {
     justify-content:center;
     align-items: center;
-   
 }
 
 .detail_numbers {
