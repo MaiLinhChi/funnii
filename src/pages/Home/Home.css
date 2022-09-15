@@ -1,9 +1,10 @@
 .homePage {
     text-align: center;
-    margin-top: 100px;
     width: 100%;
 }
-
+.block{
+    margin-top: 90px;
+}
 #slogan {
     font-weight: 500;
     font-size: 14px;
@@ -16,7 +17,26 @@
     font-size: 25px;
     font-weight: 600;
 }
+.intro{
+    position: relative;
+    display: block;
+}
 
+.backgroundHome{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 30%;
+}
+
+.content{
+    width: 30%;
+    margin: auto;
+    position: absolute ;
+    top:0;
+    left: 35%;
+}
 .content h1 {
     font-weight: 700;
     font-size: 60px;
@@ -39,15 +59,7 @@ p{
     font-size: 18px;
     color:#1E1C31;
 }
-.backgroundHome{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
 
-.Company{
-    margin-top: 120px;    
-}
 
 
 .companyBG{
@@ -80,7 +92,20 @@ p{
     background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #3550AD 100%);
     border-radius: 35px;
 }
-
+@media only screen and (max-width: 1024px) {
+    
+    .content{
+        width: 100%;
+        position: relative !important;
+        left: 0;
+    }
+    .backgroundHome{
+        flex-direction: row-reverse;
+        margin-top: 10px;
+        gap: 0;
+        
+    }
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -109,10 +134,19 @@ p{
     .companyBG:before{
         border-radius: 15px;
     }
+    .content{
+        width: 100%;
+        position: relative !important;
+        left: 0;
+    }
     .backgroundHome{
         flex-direction: row-reverse;
         margin-top: 10px;
         gap: 0;
+       
+    }
+    #slogan2{
+        font-size: 15px;
     }
 }
 

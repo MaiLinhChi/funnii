@@ -1,8 +1,8 @@
 import {React, useEffect} from "react";
 import Images from "../../config/Images";
-import Clients from "../Client/Clients";
-import Discover from "../Discover/Discover";
-import OurGame from "../OurGame/OurGame";
+import Clients from "../../components/Client/Clients";
+import Discover from "../../components/Discover/Discover";
+import OurGame from "../../components/OurGame/OurGame";
 import './Home.css'
 function Home() {
     useEffect(() => {
@@ -15,26 +15,25 @@ function Home() {
     
     return ( 
         <div className="homePage">
-            <div className="intro">
-                
+            <div className="intro block">
                 <div className="content">
                     <p id="slogan">Creative IDEA, PLAY FOR FUN</p>
                     <h1><span style={redText}>Funnii</span> Games</h1>
-                    <p id="slogan2">Our games are vibrant worlds with charming characters</p>
+                    <p id="slogan2"> Funnii are hyper-casual game with trending characters</p>
                     <button>See more</button>
                 </div>
 
-                <div class="backgroundHome">
+                <div className="backgroundHome">
                     <img src={Images.solider} alt=""  />
                     <img src={Images.king} alt=""  className="king"/>
                 </div>
             </div>
             <Discover></Discover>
             <OurGame></OurGame>
-             <div className="Company">
+             <div className="Company block">
                 <h2>Life at <span style={redText}>Funnii</span></h2>
-                <p>Our employees can work from anywhere in the world</p>
-                <div class="companyBG">
+                <p>Our employees can work in a scrum organization, active and professional working environment with a highly experienced.</p>
+                <div className="companyBG">
                     <img src={Images.company} alt="" />
                     <button>See more</button>
                 </div> 

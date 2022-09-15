@@ -55,7 +55,7 @@
     z-index: 1;
     border-radius: 25px;
 }
-.slick-slider {
+.sliderHidden {
     display: none;
 }
 
@@ -71,7 +71,7 @@
     .listToGame {
         display: none;
     }
-    .slick-slider {
+    .sliderHidden {
         display: block;
     }
     

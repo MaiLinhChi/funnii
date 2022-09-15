@@ -1,6 +1,5 @@
 .AboutPage{
     text-align: center;
-    margin-top: 60px;
 }
 
 .bgInfo{
@@ -10,7 +9,7 @@
 
 .bgInfo img{
     width: 80%;
-    height: auto;
+    height: 100%;
 }
 
 .bgContent{
@@ -66,10 +65,6 @@
 .ant-image-mask:hover{
     border-radius: 35px;
 }
-
-/* .imgWork img:hover{
-    transform: scale(1.1);
-} */
 
 .mobileDisplayBg{
     display: none;

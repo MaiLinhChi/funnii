@@ -1,7 +1,7 @@
 import { React, useEffect } from "react";
 import Images from "../../config/Images";
-import Discover from "../Discover/Discover";
-import OurGame from "../OurGame/OurGame";
+import Discover from "../../components/Discover/Discover";
+import OurGame from "../../components/OurGame/OurGame";
 import Games from "../../config/games";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -30,7 +30,7 @@ function GamePage() {
     }
 
     useEffect(() => {
-        document.title = 'Games - Funnii';
+        document.title = 'Our Games - Funnii';
     });
 
     return (
@@ -43,89 +43,89 @@ function GamePage() {
                 <h2>Top game</h2>
                 <p>Funnii is one of the top 3 mobile gaming companies in the SEA</p>
                 <div className="listToGame">
-                    <div class="cardGame">
+                    <div className="cardGame">
                         <img src={Games.Comic.url} alt="" />
-                        <div class="gameInfo">
+                        <div className="gameInfo">
                             <h3>{Games.Comic.title}</h3>
                             <p>{Games.Comic.detail}</p>
                         </div>
                     </div>
                     <div className="cardGame">
                         <img src={Games.MergeSuperhero.url} alt="" />
-                        <div class="gameInfo">
+                        <div className="gameInfo">
                             <h3>{Games.MergeSuperhero.title}</h3>
                             <p>{Games.MergeSuperhero.detail}</p>
                         </div>
                     </div>
                     <div className="cardGame">
                         <img src={Games.BubbleClassic.url} alt="" />
-                        <div class="gameInfo">
+                        <div className="gameInfo">
                             <h3>{Games.BubbleClassic.title}</h3>
                             <p>{Games.BubbleClassic.detail}</p>
                         </div>
                     </div>
                     <div className="cardGame">
                         <img src={Games.StickShadow.url} alt="" />
-                        <div class="gameInfo">
+                        <div className="gameInfo">
                             <h3>{Games.StickShadow.title}</h3>
                             <p>{Games.StickShadow.detail}</p>
                         </div>
                     </div>
                     <div className="cardGame">
                         <img src={Games.EraseGames.url} alt="" />
-                        <div class="gameInfo">
+                        <div className="gameInfo">
                             <h3>{Games.EraseGames.title}</h3>
                             <p>{Games.EraseGames.detail}</p>
                         </div>
                     </div>
                     <div className="cardGame">
                         <img src={Games.PinkGame.url} alt="" />
-                        <div class="gameInfo">
+                        <div className="gameInfo">
                             <h3>{Games.PinkGame.title}</h3>
                             <p>{Games.PinkGame.detail}</p>
                         </div>
                     </div>
 
                 </div>
-                <Slider {...settings}>
-                    <div class="cardGame">
+                <Slider {...settings} className='sliderHidden'>
+                    <div className="cardGame">
                         <img src={Games.Comic.url} alt="" />
-                        <div class="gameInfo">
+                        <div className="gameInfo">
                             <h3>{Games.Comic.title}</h3>
-                            <p>{Games.Comic.detail}</p>
+                            <p>{Games.Comic.detail}</p> 
                         </div>
                     </div>
                     <div className="cardGame">
                         <img src={Games.MergeSuperhero.url} alt="" />
-                        <div class="gameInfo">
+                        <div className="gameInfo">
                             <h3>{Games.MergeSuperhero.title}</h3>
                             <p>{Games.MergeSuperhero.detail}</p>
                         </div>
                     </div>
                     <div className="cardGame">
                         <img src={Games.BubbleClassic.url} alt="" />
-                        <div class="gameInfo">
+                        <div className="gameInfo">
                             <h3>{Games.BubbleClassic.title}</h3>
                             <p>{Games.BubbleClassic.detail}</p>
                         </div>
                     </div>
                     <div className="cardGame">
                         <img src={Games.StickShadow.url} alt="" />
-                        <div class="gameInfo">
+                        <div className="gameInfo">
                             <h3>{Games.StickShadow.title}</h3>
                             <p>{Games.StickShadow.detail}</p>
                         </div>
                     </div>
                     <div className="cardGame">
                         <img src={Games.EraseGames.url} alt="" />
-                        <div class="gameInfo">
+                        <div className="gameInfo">
                             <h3>{Games.EraseGames.title}</h3>
                             <p>{Games.EraseGames.detail}</p>
                         </div>
                     </div>
                     <div className="cardGame">
                         <img src={Games.PinkGame.url} alt="" />
-                        <div class="gameInfo">
+                        <div className="gameInfo">
                             <h3>{Games.PinkGame.title}</h3>
                             <p>{Games.PinkGame.detail}</p>
                         </div>

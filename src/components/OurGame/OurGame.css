@@ -1,13 +1,9 @@
-.ourGame{
-    margin-top: 120px;
-}
 .listGame{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 60px;
 }
-
 
 .ourGame p{
     font-weight: 400;

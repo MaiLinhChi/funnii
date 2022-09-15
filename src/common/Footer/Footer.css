@@ -1,6 +1,6 @@
 .Footer{
     color: #222136;
-    margin: 230px 141px 0 141px;
+     margin: 250px 100px 0 100px;
 }
 
 .Footer h5{
@@ -8,15 +8,30 @@
     font-size: 18px;
     line-height: 28px;
 }
-
-#input_email{
+.inputWithButton{
+    position: relative;
+}
+.inputWithButton input{
+    background: #ECF0FC;
     border-radius: 9px;
     border-style: hidden;
-    width: 70%;
     height: 40px;
-    background-color: #ECF0FC;
-    padding-left: 20px;
+    width: 60%;
+    padding-left: 5%;
 }
+.inputWithButton button{
+    position: absolute;
+    width: 30px;
+    height: auto;
+    background-color: transparent;
+    border-radius: 0;
+    margin-top: 1%;
+}
+
+.inputWithButton button:hover{
+    background-color: transparent;
+}
+
 .ant-col{
     width: 100%;
 }
@@ -29,10 +44,12 @@
     padding: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .Footer{
         color: #222136;
-        margin: 70px 20px 0 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 30px;
         text-align: center;
     }
     .Footer .logoBottom{
@@ -48,6 +65,4 @@
         height: 60px;
         width: 60px;
     }
-
-
 }

@@ -19,7 +19,8 @@ const Images = {
     work2 : 'images/work2.png',
     work3 : 'images/work3.png',
     work4 : 'images/work4.png',
-
+    submit: 'images/Vector.png',
+    clientBg: 'images/client.png'
 
 
 }
