@@ -3,15 +3,8 @@ const Images = {
     menu: 'images/menu.svg',
     logoBottom : 'images/logo_bottom.png',
     fbIcon: 'images/fb.png',
-    twIcon: 'images/tw.png',
-    insIcon: 'images/insta.png',
     king: 'images/king.png',
     solider: 'images/solider.png',
-    game1 : 'images/game1.png',
-    game2 : 'images/game2.png',
-    game3 : 'images/game3.png',
-    game4 : 'images/game4.png',
-    game5 : 'images/game5.png',
     company: 'images/company.png',
     bgGame: 'images/bgGame.png',
     bgAbout: 'images/bgAbout.png',
@@ -20,7 +13,9 @@ const Images = {
     work3 : 'images/work3.png',
     work4 : 'images/work4.png',
     submit: 'images/Vector.png',
-    clientBg: 'images/client.png'
+    clientBg: 'images/client.png',
+    ironsource: 'images/ironsource.png',
+    mintegrallogo: 'images/mintegrallogo.png'
 
 
 }

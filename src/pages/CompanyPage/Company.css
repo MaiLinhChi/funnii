@@ -1,0 +1,33 @@
+.CompanyPage{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.CompanyPage h2{
+    font-size: 34px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+
+.companyHeader h2{
+    font-weight: bolder;
+    font-size: 65px;
+    text-align: center;
+}
+   
+
+@media only screen and (max-width: 900px) {
+    .companyHeader h2{
+        font-size: 40px;
+    }
+    .CompanyPage{
+       margin-left: 2% !important;
+       margin-right: 2% !important;
+    }
+    .companyHeader p{
+        text-align:left;
+    }
+}
+
+

@@ -10,13 +10,17 @@
 }
 .inputWithButton{
     position: relative;
+    width: 60%;
+   
 }
+
 .inputWithButton input{
     background: #ECF0FC;
     border-radius: 9px;
     border-style: hidden;
     height: 40px;
-    width: 60%;
+    width: 100%;
+    padding: 15px;
     padding-left: 5%;
 }
 .inputWithButton button{
@@ -26,6 +30,8 @@
     background-color: transparent;
     border-radius: 0;
     margin-top: 1%;
+    right:10px;
+    top: 4.5px
 }
 
 .inputWithButton button:hover{
@@ -49,8 +55,9 @@
         color: #222136;
         margin-left: 40px;
         margin-right: 40px;
-        margin-top: 30px;
+        margin-top: 130px;
         text-align: center;
+        justify-content: center;
     }
     .Footer .logoBottom{
         height: 40px;
@@ -64,5 +71,8 @@
     .Icon{
         height: 60px;
         width: 60px;
+    }
+    .inputWithButton{
+        margin: auto;
     }
 }

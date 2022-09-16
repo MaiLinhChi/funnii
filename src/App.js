@@ -11,7 +11,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import CareersPage from './pages/Careers/Careers';
+import CompanyPage from './pages/CompanyPage/Company';
+
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home  />} />
           <Route path="/games" element={<GamePage  />} />
-          <Route path='/careers' element={<CareersPage />}/>
+          <Route path='/company' element={<CompanyPage />}/>
           <Route path="/about" element={<AboutPage />} />
         </Routes>
         <Footer></Footer>
