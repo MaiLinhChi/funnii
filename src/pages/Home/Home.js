@@ -20,7 +20,7 @@ function Home() {
                     <p id="slogan">Creative IDEA, PLAY FOR FUN</p>
                     <h1><span style={redText}>Funnii</span> Games</h1>
                     <p id="slogan2"> Funnii are hyper-casual game with trending characters</p>
-                    <button>See more</button>
+                    
                 </div>
 
                 <div className="backgroundHome">
@@ -35,7 +35,7 @@ function Home() {
                 <p>Our employees can work in a scrum organization, active and professional working environment with a highly experienced.</p>
                 <div className="companyBG">
                     <img src={Images.company} alt="" />
-                    <button>See more</button>
+                    
                 </div> 
             </div>
             <Clients></Clients>

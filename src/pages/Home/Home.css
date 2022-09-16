@@ -42,18 +42,7 @@
     font-size: 60px;
     line-height: 76px;
 }
-button{
-    background: #4270EC;
-    border-radius: 15px;
-    width: 170px;
-    height: 49px;
-    color: white;
-    font-weight: 500;
-    border-style: hidden;
-}
-button:hover{
-    background-color: #2a5de7;
-}
+
 p{
     font-weight: 400;
     font-size: 18px;
@@ -71,14 +60,6 @@ p{
     height: auto;
 }
 
-.companyBG button{
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    z-index: 2;
-}
 
 .companyBG:before{
     content: '';
@@ -119,10 +100,7 @@ p{
         font-size: 32px;
         
     }
-    button{
-        width: 120px;
-        height: 40px;
-    }
+    
     .intro img{
         width: 150px;
         height: 260px;

@@ -27,7 +27,7 @@ function OurGame(props) {
                     );
                 })}
             </div>
-            <button>See more</button>
+            
         </div>
     );
 }

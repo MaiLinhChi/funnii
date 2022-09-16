@@ -24,6 +24,7 @@
     padding-left: 5%;
 }
 .inputWithButton button{
+    border-style: hidden;
     position: absolute;
     width: 30px;
     height: auto;
