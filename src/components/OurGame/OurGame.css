@@ -6,12 +6,12 @@
 }
 
 .ourGame p{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 23px;
 }
 .nameGame{
-    font-weight: 600 !important;
+    font-weight: 550 !important;
     font-size: 25px !important;
     color: black;
     margin-top: 5px;
@@ -23,7 +23,9 @@
     transform: scale(1.1);
 }
 .card:hover > p{
-    color: #3CF61E;
+    color: black;
+    font-weight: 600 !important;
+    
 }
 
 

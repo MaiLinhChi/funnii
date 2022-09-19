@@ -9,13 +9,19 @@
     width: 100%;
 }
 
-
- @media only screen and (max-width: 900px) {
+.PartnerText{
+   width: 50%;
+   margin: auto;
+}
+@media only screen and (max-width: 900px) {
     .contentCover p{
         font-size: 14px;
     }
 
     .cover .slick-slider{
         width: 70%;
+    }
+    .PartnerText{
+        width: 90%;
     }
 }

@@ -24,6 +24,10 @@
     position: relative;
 }
 
+.cardGame img{
+    border-radius: 25px ;
+}
+
 .cardGame .gameInfo {
     position: absolute;
     z-index: 2;
@@ -42,6 +46,7 @@
     color: white !important;
     font-weight: 400;
     font-size: 15px;
+    height: 80px;
 }
 
 .cardGame::before {

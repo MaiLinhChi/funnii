@@ -18,21 +18,19 @@ function Clients() {
   }
   return (
     <div className="client block">
-      <p>Testimony</p>
-      <h2>Funnii Partners</h2>
+      <h2>Our Partners</h2>
       <div className="cover">
         <Slider {...settings} className='slider'>
           <div className="contentCover">
              <img src={Images.mintegrallogo} alt="" />
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ullam dolor nisi quia, itaque labore, totam voluptas iste quos accusantium, officia est exercitationem quam aspernatur animi sapiente reiciendis ut sequi.</p>
           </div>
           <div className="contentCover">
            <img src={Images.ironsource} alt="" />
-           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, id, delectus nam magnam unde ea aut iste repudiandae officia odit dolorem fuga provident harum minima tenetur, sapiente exercitationem cumque vitae?</p>
-          </div>
-          
+          </div>  
         </Slider>
       </div>
+      <br />
+      <p className='PartnerText'>We look for the best partners and together we deliver their incredible games to players on all platforms and devices.</p>
     </div>
   );
 }

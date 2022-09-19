@@ -1,6 +1,6 @@
 .Footer{
     color: #222136;
-     margin: 250px 100px 0 100px;
+    margin: 250px 100px 0 100px;
 }
 
 .Footer h5{
@@ -11,7 +11,7 @@
 .inputWithButton{
     position: relative;
     width: 60%;
-   
+    margin-bottom: 0;
 }
 
 .inputWithButton input{
@@ -48,17 +48,21 @@
 }
 
 .Footer .Icon{
-    padding: 10px;
+    width: auto;;
 }
 
 @media only screen and (max-width: 900px) {
     .Footer{
         color: #222136;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 40px;
+        padding-right: 40px;
         margin-top: 130px;
+        margin-bottom: 100px;
         text-align: center;
         justify-content: center;
+        background-color: #ECECEC;
     }
     .Footer .logoBottom{
         height: 40px;
@@ -70,8 +74,8 @@
         display: none;
     }
     .Icon{
-        height: 60px;
-        width: 60px;
+        height: 40px;
+        width: 40px;
     }
     .inputWithButton{
         margin: auto;

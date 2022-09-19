@@ -24,8 +24,8 @@ function Home() {
                 </div>
 
                 <div className="backgroundHome">
-                    <img src={Images.solider} alt=""  />
-                    <img src={Images.king} alt=""  className="king"/>
+                    <img src={Images.bg1} alt=""/>
+                    <img src={Images.bg2} alt=""/>
                 </div>
             </div>
             <Discover></Discover>
@@ -34,8 +34,7 @@ function Home() {
                 <h2>Life at <span style={redText}>Funnii</span></h2>
                 <p>Our employees can work in a scrum organization, active and professional working environment with a highly experienced.</p>
                 <div className="companyBG">
-                    <img src={Images.company} alt="" />
-                    
+                    <img src={Images.company} alt="" />               
                 </div> 
             </div>
             <Clients></Clients>

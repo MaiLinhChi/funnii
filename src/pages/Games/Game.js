@@ -15,7 +15,7 @@ export const TopGameItem = (props) => {
         <div className="cardGame">
             <img src={props.imgLarge} alt={props.title} />
             <div className="gameInfo">
-                <h3>{props.title}</h3>
+                <h3>{props.titleH}</h3>
                 <p>{props.detail}</p>
             </div>
         </div>
@@ -27,7 +27,7 @@ export const SliderItemGame = (props) => {
         <div className="cardGame">
         <img src={props.imgLarge} alt={props.title} />
         <div className="gameInfo">
-            <h3>{props.title}</h3>
+            <h3>{props.titleH}</h3>
             <p>{props.detail}</p>
         </div>
     </div>
@@ -70,11 +70,11 @@ function GamePage() {
                 <h2>Top game</h2>
                 <p>Funnii is one of the top 3 mobile gaming companies in the SEA</p>
                 <div className="listToGame">
-                    {GamesList.map((item, index) => {
+                    {GamesList.map((item) => {
                         return(
                             <TopGameItem key={item.id}
                                 imgLarge = {item.imgLarge}
-                                title = {item.title}
+                                titleH = {item.titleH}
                                 detail = {item.detail}>
                             </TopGameItem>
                             
@@ -82,11 +82,11 @@ function GamePage() {
                     })}
                 </div>
                 <Slider {...settings} className='sliderHidden'>
-                    {GamesList.map((item, index) => {
+                    {GamesList.map((item) => {
                             return(
                                 <SliderItemGame key={item.id}
                                     imgLarge = {item.imgLarge}
-                                    title = {item.title}
+                                    titleH = {item.titleH}
                                     detail = {item.detail}>
                                 </SliderItemGame>
                                 

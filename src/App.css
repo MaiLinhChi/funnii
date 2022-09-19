@@ -3,6 +3,21 @@ body {
     font-family: 'Poppins';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.App{
+  background-image: url('../public/images/Ellipse\ 14.png'),url('../public/images/Ellipse\ 15.png') ;
+  background-position: right center, left bottom;
+  background-repeat:  no-repeat, no-repeat;
+  background-size: 20%;
+  background-origin: border-box
+}
+
+@media screen and (max-width: 600px){
+  .App{
+    background-position: right top, left center;
+    background-size: 180px;
   }
+}
   
   

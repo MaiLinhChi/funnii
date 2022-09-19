@@ -17,7 +17,7 @@ function AboutPage() {
                     <p>We are committed to providing high-quality products to the global market and hope to become one of the top studios</p>
             </div>
             <div className="bgInfo block">
-                <img src={Images.bgAbout} alt="" className="bgAbout" />
+                <img src={Images.bgAbout} alt="" />
                 <div className="bgContent mobileHiddenContent"> 
                     <h2>We are Funnii</h2>
                     <p>We are committed to providing high-quality products to the global market and hope to become one of the top studios</p>

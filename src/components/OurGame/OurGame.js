@@ -18,13 +18,16 @@ function OurGame(props) {
             <h2>Our games</h2>
             <p>Over 10 million people play our games every month</p>
             <div className="listGame">
-                {GamesList.map((item, index) => {
-                    return(
+                {GamesList.map((item) => {
+                    if(item.notop === 0){
+                        return(
                         <Card key={item.id}
                             imageSmall = {item.imgSmall}
                             title = {item.title}>
                         </Card>
                     );
+                    }
+                    
                 })}
             </div>
             
