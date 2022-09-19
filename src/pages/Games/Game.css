@@ -5,6 +5,7 @@
 .GamePage .backgroundGamePage {
     background-size: cover;
     width: 100%;
+    margin-top: 100px;
 }
 
 .topGame {
@@ -12,9 +13,13 @@
 }
 
 .listToGame {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 40px;
     row-gap: 40px;
     justify-content: center;
 }
@@ -38,13 +43,13 @@
 
 .gameInfo h3 {
     color: white !important;
-    font-weight: 700;
+    font-weight: 900 !important;
     font-size: 25px;
 }
 
 .gameInfo p {
     color: white !important;
-    font-weight: 400;
+   
     font-size: 15px;
     height: 80px;
 }
@@ -79,10 +84,30 @@
     .sliderHidden {
         display: block;
     }
+    .slick-list{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .cardGame img{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .gameInfo{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .cardGame::before{
+        width: 90%;
+        left: 5%;
+    }
+
     
 }
 @media (min-width:481px) and (max-width:1024px) {
     .listToGame{
-        gap: 30px
+        gap: 20px
     }
 }

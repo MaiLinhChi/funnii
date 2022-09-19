@@ -2,11 +2,7 @@
     text-align: center;
 }
 
-h2 {
-    color: #1E1C31;
-    font-size: 50px;
-    font-weight: 700;
-}
+
 
 .ant-divider {
     background-color: #5E5E5E;
@@ -14,6 +10,7 @@ h2 {
 }
 
 .discover_info {
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -28,7 +25,7 @@ h2 {
 }
 
 .detail_numbers {
-    font-weight: 700;
+    font-weight: 900 !important;
     font-size: 40px;
     line-height: 29px;
     color: #EA0000;

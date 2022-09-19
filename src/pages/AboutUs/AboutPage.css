@@ -9,9 +9,7 @@
 
 .bgInfo img{
     width: 80%;
-    height: 100%;
-    border-radius: 25px ;
-    background-size: cover;
+    border-radius: 42px ;
 }
 
 .bgContent{
@@ -31,23 +29,28 @@
     right: 0;
     bottom: 0;
     background: linear-gradient(185.04deg, rgba(0, 0, 0, 0) 30.99%, #6444E6 94.93%);
-    border-radius: 30px;
+    border-radius: 42px;
     z-index: 1;
     position: absolute;
 }
 
 .bgContent p  {
     color: white !important;
-    font-size: 1vw !important;
+    font-size: 18px !important;
     
 }
 .bgContent h2{
     color: white ;
-    font-size: 4vw !important;
+    font-size: 5.5vw !important;
 }
 
 .work{
     margin-top: 120px;
+}
+.work p{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .imgWork{
@@ -67,23 +70,26 @@
 .ant-image-mask:hover{
     border-radius: 35px;
 }
-
+.ant-image-preview-img{
+    width: 1200px;
+    height: auto;
+    
+}
 .mobileDisplayBg{
     display: none;
 }
 .philosophy{
-    margin-right: 18%;
-    margin-left: 18%;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .philosophy h2{
-    margin-top: 120px;
-    
     text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
     .bgInfo img{
-        height: 180px;
+        height: auto;
         width: 90%;
         border-radius: 10px;
     }
@@ -93,7 +99,9 @@
         left: 5%;
         
     }
-
+    .work p{
+        width: 100%;
+    }
     .imgWork img{
         width: 70%;
         height: auto;

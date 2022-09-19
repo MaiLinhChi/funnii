@@ -23,11 +23,11 @@ function AboutPage() {
                     <p>We are committed to providing high-quality products to the global market and hope to become one of the top studios</p>
                 </div>
             </div>
-            <div className="philosophy">
+            <div className="philosophy block">
                 <h2><span style={{color:'red'}}>Funnii</span> - a place where everyone can thrive and do their best work</h2>
             </div>
             <div className="work">
-                <h2>Makes a Great Quality Team</h2>
+                <h2>Makes a Great <span style={{color:'red'}}>Quality Team</span></h2>
                 <p>Listening, having humility, being open to new ways of thinking, and looking with a lens of inclusion. Challenging ourselves to grow and change as a company.</p>
                 <div className="imgWork">
                     <Image.PreviewGroup >

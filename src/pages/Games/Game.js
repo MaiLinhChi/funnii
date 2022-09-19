@@ -25,12 +25,12 @@ export const TopGameItem = (props) => {
 export const SliderItemGame = (props) => {
     return (
         <div className="cardGame">
-        <img src={props.imgLarge} alt={props.title} />
-        <div className="gameInfo">
-            <h3>{props.titleH}</h3>
-            <p>{props.detail}</p>
+            <img src={props.imgLarge} alt={props.title} />
+            <div className="gameInfo">
+                <h3>{props.titleH}</h3>
+                <p>{props.detail}</p>
+            </div>
         </div>
-    </div>
     )
 }
 
@@ -63,9 +63,8 @@ function GamePage() {
     return (
         <div className="GamePage">
             <Discover></Discover>
-            <br />
-            <img src={Images.bgGame} alt="" className="backgroundGamePage" />
 
+            <img src={Images.bgGame} alt="" className="backgroundGamePage" />
             <div className="topGame">
                 <h2>Top game</h2>
                 <p>Funnii is one of the top 3 mobile gaming companies in the SEA</p>

@@ -48,7 +48,12 @@
 }
 
 .Footer .Icon{
-    width: auto;;
+    width: 30px;
+    height: 30px;
+}
+
+.Footer .logoBottom{
+    width: 30%;
 }
 
 @media only screen and (max-width: 900px) {
@@ -58,6 +63,7 @@
         margin-right: 0;
         padding-left: 40px;
         padding-right: 40px;
+        padding-top: 40px;
         margin-top: 130px;
         margin-bottom: 100px;
         text-align: center;
@@ -66,6 +72,7 @@
     }
     .Footer .logoBottom{
         height: 40px;
+        width: auto;
     }
     .ant-col{
         margin-top: 5px;
@@ -74,8 +81,8 @@
         display: none;
     }
     .Icon{
-        height: 40px;
-        width: 40px;
+        height: 40px !important;
+        width: 40px !important;
     }
     .inputWithButton{
         margin: auto;
