@@ -63,17 +63,12 @@
     justify-content: center;
 
 }
-.ant-image{
+.imgWork img{
     width: 600px;
     transition: transform 0.5s;
-}
-.ant-image-img{
-    border-radius: 35px;
+    border-radius: 25px;
 }
 
-.ant-image-mask:hover{
-    border-radius: 35px;
-}
 
 .mobileDisplayBg{
     display: none;

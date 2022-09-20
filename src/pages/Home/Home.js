@@ -19,7 +19,7 @@ function Home() {
                 <div className="content">
                     <p id="slogan">Creative IDEA, PLAY FOR FUN</p>
                     <h1><span style={redText}>Funnii</span> Games</h1>
-                    <p id="slogan2"> Funnii are hyper-casual game with trending characters</p>
+                    <p id="slogan2"> Keeping it simple but giving the best feelings</p>
                     
                 </div>
 

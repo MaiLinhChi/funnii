@@ -16,7 +16,7 @@ function AboutPage() {
                     <h2>We are <span style={{ color: 'red' }}> Funnii</span></h2>
                     <p>We are committed to providing high-quality products to the global market and hope to become one of the top studios</p>
             </div>
-            <div className="bgInfo block">
+            <div className="bgInfo block ">
                 <img src={Images.bgAbout} alt="" />
                 <div className="bgContent mobileHiddenContent"> 
                     <h2>We are Funnii</h2>
@@ -30,12 +30,10 @@ function AboutPage() {
                 <h2>Makes a Great <span style={{color:'red'}}>Quality Team</span></h2>
                 <p>Listening, having humility, being open to new ways of thinking, and looking with a lens of inclusion. Challenging ourselves to grow and change as a company.</p>
                 <div className="imgWork">
-                    <Image.PreviewGroup >
-                        <Image src={Images.work1} alt="" />
-                        <Image src={Images.work2} alt="" />
-                        <Image src={Images.work3} alt="" />
-                        <Image src={Images.work4} alt="" />
-                    </Image.PreviewGroup>
+                    <img src={Images.work1} alt="" />
+                    <img src={Images.work2} alt="" />
+                    <img src={Images.work3} alt="" />
+                    <img src={Images.work4} alt="" />
                 </div>
             </div>
             <Clients></Clients>

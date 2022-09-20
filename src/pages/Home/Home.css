@@ -17,7 +17,11 @@
     color: #1E1C3199;
     font-size: 25px;
     font-weight: 600;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .intro{
     position: relative;
     display: block;
@@ -64,7 +68,7 @@ h2 {
 }
 .companyBG img{
     width: 80%;
-    height: auto;
+    max-height: 600px;
     border-radius: 42px;
 
 }
@@ -122,7 +126,7 @@ h2 {
     .companyBG img{
         width: 90%;
         border-radius: 15px ;
-        height: 170px;
+        height: auto;
     }
     .companyBG:before{
         border-radius: 15px;
