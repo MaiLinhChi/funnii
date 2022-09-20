@@ -60,6 +60,7 @@ h2 {
 .companyBG{
     position: relative;
     width: 100%;
+    margin-top: 40px;
 }
 .companyBG img{
     width: 80%;
@@ -116,10 +117,19 @@ h2 {
     .backgroundHome img{
         width: 100%;
         height: 400px;
+
+    }
+    .companyBG img{
+        width: 90%;
+        border-radius: 15px ;
+        height: 170px;
     }
     .companyBG:before{
         border-radius: 15px;
+        width: 90%;
+        left: 5%;
     }
+    
     .content{
         width: 100%;
         position: relative !important;

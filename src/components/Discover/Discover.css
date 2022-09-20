@@ -10,7 +10,7 @@
 }
 
 .discover_info {
-    margin-top: 40px;
+    margin-top: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -26,7 +26,7 @@
 
 .detail_numbers {
     font-weight: 900 !important;
-    font-size: 40px;
+    font-size: 43px;
     line-height: 29px;
     color: #EA0000;
     padding-top: 20px;

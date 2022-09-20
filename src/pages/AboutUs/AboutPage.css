@@ -9,7 +9,9 @@
 
 .bgInfo img{
     width: 80%;
+    max-height: 600px;
     border-radius: 42px ;
+    object-fit: cover;
 }
 
 .bgContent{
@@ -57,24 +59,22 @@
     display: flex;
     flex-wrap: wrap;
     flex: 0 0 33.33333333%;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
 
 }
-.imgWork img{
-    width: 100%;
+.ant-image{
+    width: 600px;
     transition: transform 0.5s;
-   
+}
+.ant-image-img{
+    border-radius: 35px;
 }
 
 .ant-image-mask:hover{
     border-radius: 35px;
 }
-.ant-image-preview-img{
-    width: 1200px;
-    height: auto;
-    
-}
+
 .mobileDisplayBg{
     display: none;
 }
@@ -88,10 +88,15 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .bgInfo{
+        margin-top: 20px;
+    }
     .bgInfo img{
         height: auto;
         width: 90%;
+        max-height: 180px;
         border-radius: 10px;
+        margin-top: 0;
     }
     
     .bgInfo::before{
@@ -103,7 +108,7 @@
         width: 100%;
     }
     .imgWork img{
-        width: 70%;
+        width: 80%;
         height: auto;
     }
     .mobileDisplayBg{

@@ -30,7 +30,7 @@
 }
 
 .cardGame img{
-    border-radius: 25px ;
+    border-radius: 20px ;
 }
 
 .cardGame .gameInfo {
@@ -63,7 +63,7 @@
     bottom: 0;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 28.18%, #1D3982 91.99%);
     z-index: 1;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 .sliderHidden {
     display: none;
