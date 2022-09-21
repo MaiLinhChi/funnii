@@ -27,12 +27,30 @@
     display: block;
 }
 
-.backgroundHome{
+.backgroundHome, .backgroundHome-mobile{
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     gap: 30%;
+}
+@media only screen and (max-width: 900px) {
+    .backgroundHome {
+        display: none;
+    }
+    .backgroundHome-mobile {
+        display: block;
+    }
+
+}
+@media only screen and (min-width: 900px) {
+    .backgroundHome {
+        display: flex !important;
+    }
+    .backgroundHome-mobile {
+        display: none !important;
+    }
+
 }
 
 .content{

@@ -3,6 +3,8 @@ const Images = {
     menu: 'images/menu.svg',
     logoBottom : 'images/logo_bottom.png',
     fbIcon: 'images/fb.png',
+    bg1: 'images/bg1.png',
+    bg2: 'images/bg2.png',
     CHAR: 'images/CHAR.png',
     company: 'images/company.png',
     bgGame: 'images/bgGame.png',
