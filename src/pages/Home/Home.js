@@ -24,7 +24,7 @@ function Home() {
                 </div>
 
                 <div className="backgroundHome">
-                    <img style={{height: 478}} src={Images.CHAR} alt=""/>
+                    <img style={{height: 278, width: 200}} src={Images.CHAR} alt=""/>
                 </div>
             </div>
             <Discover></Discover>
