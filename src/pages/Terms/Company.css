@@ -1,0 +1,24 @@
+.CompanyPage{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+}
+.CompanyPage h2{
+    font-size: 34px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+   
+
+@media only screen and (max-width: 900px) {
+    
+    .CompanyPage{
+       margin-left: 2% !important;
+       margin-right: 2% !important;
+    }
+    
+}
+
+
