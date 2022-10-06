@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import 'antd/dist/antd.css'
 import Header from './common/Header/Header';
+import Policy from './pages/Policy';
 import Footer from './common/Footer/Footer';
 import Home from './pages/Home/Home';
 import GamePage from './pages/Games/Game';
@@ -24,6 +25,7 @@ function App() {
           <Route path="/home" element={<Home  />} />
           <Route path="/games" element={<GamePage  />} />
           <Route path='/company' element={<CompanyPage />}/>
+          <Route path="/policy" element={<Policy />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
         <Footer></Footer>

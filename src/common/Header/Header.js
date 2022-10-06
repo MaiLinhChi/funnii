@@ -40,6 +40,7 @@ function Header() {
                             <li><NavLink style={({ isActive }) =>isActive ? activeStyle : undefined } to="/home" onClick={onClose}>HOME </NavLink></li>
                             <li><NavLink style={({ isActive }) =>isActive ? activeStyle : undefined } to="/games" onClick={onClose}>GAMES</NavLink></li>
                             <li><NavLink style={({ isActive }) =>isActive ? activeStyle : undefined } to="/company" onClick={onClose} >COMPANY</NavLink></li>
+                            <li><NavLink style={({ isActive }) =>isActive ? activeStyle : undefined } to="/policy" onClick={onClose}>POLICY</NavLink></li>
                             <li><NavLink style={({ isActive }) =>isActive ? activeStyle : undefined } to="/about" onClick={onClose}>ABOUT US</NavLink></li>
                         </ul>
                     </Drawer>
@@ -49,6 +50,7 @@ function Header() {
                         <li><NavLink style={({ isActive }) =>isActive ? activeStyle : undefined } to='/home' >HOME</NavLink></li>
                         <li><NavLink style={({ isActive }) =>isActive ? activeStyle : undefined } to="/games">GAMES</NavLink></li>
                         <li><NavLink style={({ isActive }) =>isActive ? activeStyle : undefined } to="/company">COMPANY</NavLink></li>
+                        <li><NavLink style={({ isActive }) =>isActive ? activeStyle : undefined } to="/policy">POLICY</NavLink></li>
                         <li><NavLink style={({ isActive }) =>isActive ? activeStyle : undefined } to="/about">ABOUT US</NavLink></li>
                     </ul>
                 </div>
