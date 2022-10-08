@@ -27,6 +27,7 @@ function App() {
           <Route path="/games" element={<GamePage  />} />
           <Route path='/company' element={<CompanyPage />}/>
           <Route path="/policy" element={<Policy />} />
+          <Route path="/privacy-policy" element={<Policy />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
