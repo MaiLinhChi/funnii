@@ -2,7 +2,7 @@ google.com, pub-9449658905230386, DIRECT, f08c47fec0942fa0
 
 applovin.com, 44f3b10cbf730f6a3a9d97fcda429b75, DIRECT
 
-facebook.com, 575318229589609, RESELLER, c3e20eee3f780d68
+facebook.com, 575318229589609, DIRECT, c3e20eee3f780d68
 
 fyber.com, 212247, DIRECT 
 acd.op.hicloud.com, PUB_HW_1003, RESELLER
