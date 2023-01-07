@@ -2,6 +2,14 @@
     text-align: center;
 }
 
+.title-company {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 90px;
+    color: white;
+    text-align: center;
+}
+
 .bgInfo{
     position: relative;
     width: 100%;

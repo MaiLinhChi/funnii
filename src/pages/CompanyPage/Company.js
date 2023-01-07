@@ -1,34 +1,185 @@
 import { React, useEffect } from "react";
-import './Company.css'
+import "./Company.css";
 function CompanyPage() {
-    useEffect(() => {
-        document.title = 'Company - Funnii';
-    });
+  useEffect(() => {
+    document.title = "Company - SORTFUN";
+  });
 
-    return (
-        <div className="CompanyPage block">
-            <h2>Overview</h2>
-            <p>Funnii is a young company that specializes in creating mobile games. We are committed to providing high-quality products to the global market and hope to become one of the top studios. Since 2019, Funnii has released more than 80 mobile games with more than 200 million downloads worldwide. In 2020, we were proud our products are one of the US and China Top Mobile Games with puzzle and action games. At Funnii Studio, you could work in a scrum organization, active and professional working environment with a highly experienced. It's to bring more interest to each of the core teams. Let's take a look at our work! Explore our products on Google Play and iOS App Store such as Draw Story: Love the Girl, Erase Story, Robot Super,...  Our fundamental goal has remained the same: to make people around the world happier, by delivering games that entertain connected audiences who love games.</p>
-            <br />
-            <h2>Core Values</h2>
-            <p>At Funnii Studio, we exist to inspire the Play for Fun. We create extraordinary new game experiences for our millions of players everywhere by bringing together talented people that combine creativity, innovation, and passion. Funnii Studio develops and delivers games online for mobile devices. We know that our strength lies in the diversity of our people. We immerse our employees into an inclusive culture and provide opportunities for learning and leading that allow them to do the most impactful and rewarding work of their careers. </p>
-            <br />
-            <h2>People</h2>
-            <p>We strive to create a workplace that is diverse, equitable, and inclusive, where people have the opportunity to fulfill their potential. Funnii believe we’re at our best when we listen, learn, and empower each other. We celebrate openness and curiosity and are committed to making a positive impact in the world.
-            <br />
-            Funnii – a place where everyone can thrive, fulfill their potential and make the best games. Find out what makes us different.</p>
-            <br />
-            <h2>Passion</h2>
-            <p>We believe in the power of positive and that being part of a gaming community should be a fun, fair, and safe experience for all. We are equally committed to building a workplace that spurs creativity and innovation and is as diverse as the communities we serve.
-            <br />
-            As a young company, Funnii want to inspire through our actions and create a positive impact in the world. This isn’t a destination but an ongoing journey of transparency and continual progress.
-            </p>
-            <br />
-            <h2>Culture</h2>
-            <p>Our culture is built by all of us at Funnii, so we offer inclusion training and resources for all levels of the organization. We strive to lead the way for our industry to transform and for Funnii Studio to be viewed as a destination for great talent. From our respectful workplace policies to equality as it applies to pay, we continue to invest in internal and external initiatives that empower our people, celebrate diversity and actively foster inclusion within Funnii and our communities. </p>
-
-        </div>
-    );
+  return (
+    <div className="CompanyPage block">
+      <h1 className="title-company">Our culture</h1>
+      <p style={{ textAlign: "center" }}>
+        Our culture is our most important investment in the company's future.
+        It's what helps us remain successful in an ever-changing world.
+      </p>
+      <p>
+        A company's culture should change along with the company, so this is our
+        vision of how we should be working today. Our goal isn't to make sure
+        our culture stays exactly as it is now — on the contrary, we want it to
+        evolve. There are more and more people who are truly passionate about
+        their work in the company, and together we seek out new ways of working
+        more effectively together. As part of this process, using the knowledge
+        we gain as we grow, we’ll update our Culture Code.
+      </p>
+      <h2>Core Values</h2>
+      <p>
+        Our values are our guiding principles. They reflect our beliefs about
+        how we can achieve the results that will allow us to excel. These values
+        are the foundation upon which our company's culture is built. They guide
+        our day-to-day work and help us make decisions. We want to work with
+        people who share the following values:
+      </p>
+      <h3>Quality</h3>
+      <ul>
+        <li>They always aim to do their best work</li>
+        <li>They bring in new ideas and suggest innovative solutions</li>
+        <li>They analyze their results to become better at their job</li>
+      </ul>
+      <h3>Results</h3>
+      <ul>
+        <li>They focus on the results, not the process</li>
+        <li>They know which tasks to prioritize</li>
+        <li>They find the most effective solutions to complete tasks</li>
+      </ul>
+      <h3>Interaction</h3>
+      <ul>
+        <li>
+          They are honest. They speak their mind even if it might cause
+          disagreement
+        </li>
+        <li>
+          They strive for mutual understanding. They seek consensus when solving
+          problems
+        </li>
+        <li>
+          They treat other people with respect regardless of their position.
+          They don't say anything about another person that they wouldn't say to
+          their face
+        </li>
+      </ul>
+      <p>
+        Coming up with overarching values is easy — it's much more difficult to
+        follow them every day. We want all of our employees to help each other
+        follow these values and embody the qualities described in them.
+      </p>
+      <h2>Distributed Team</h2>
+      <p>
+        We believe that people are more important than ideas. An awesome team
+        can take a bad idea and turn it into a hit. A mediocre team can take a
+        great idea and turn it into a lukewarm product. We've been building a
+        unique team since day one.<br></br>
+        <br></br>
+        Talented people can be anywhere: in small towns and big cities, but not
+        everyone is ready to relocate. We took an innovative approach of working
+        in a distributed team and have become the world's largest. We don't
+        limit ourselves to specific locations when looking for talent. People at
+        Playrix can work from wherever they want: from home, a coffee shop, or
+        one of our 17+ offices. Thanks to our distributed structure, our teams
+        are unique. They consist of people who would never have been able to
+        work together otherwise.<br></br>
+        <br></br>
+        We don't think it's necessary to be near your colleagues to be an
+        effective team. Many issues can be resolved independently and at
+        different times. When we do need to discuss something in real time, we
+        use video calls and our corporate messenger.<br></br>
+        <br></br>
+        Direct personal communication is essential in a distributed team. We
+        hold our own PlayrixCON each year to give the whole company the chance
+        to get together. Teams also have regular mini events where they come
+        together to problem solve in person. Our employees often arrange
+        meetings themselves in our offices. All of this allows us to get to know
+        each other better and interact more efficiently. <br></br>
+        <br></br>
+        Our priority is to treat all employees equally whether they work
+        remotely or from an office. Everyone at Playrix has equal opportunities
+        for development regardless of their location.
+      </p>
+      <h2>Quality and Innovations</h2>
+      <p>
+        We believe that the company grows when its employees do. That's why we
+        create an environment that fosters employee development.<br></br>
+        <br></br>
+        We don't view formal education (conferences, seminars, etc.) as the best
+        way to develop professionally. Although we don't deny its value, we
+        believe that people learn more effectively when they work on
+        challenging, hands-on tasks alongside their talented colleagues.{" "}
+        <br></br>
+        <br></br>
+        We believe that we learn faster when we receive continuous feedback. We
+        don't have formal meetings to evaluate results. We see feedback as an
+        essential part of our communication and how we work together. We give
+        feedback as soon as there's a need for it, and we are honest with that
+        feedback regardless of roles and positions. Giving feedback isn't always
+        easy, especially when it concerns people in senior positions. But we
+        support openness and honesty — everyone should feel comfortable speaking
+        their mind. <br></br>
+        <br></br>
+        While receiving honest, direct feedback can be difficult, we believe
+        it's necessary. That's why we train our employees to give each other
+        constructive, professional feedback on a regular basis.<br></br>
+        <br></br>
+        We aren't afraid of making mistakes, because we think they lead to
+        discoveries and learning opportunities. Mistakes aren't a bad thing.
+        They're inevitable when you create something new. It’s okay to make
+        mistakes from time to time, but what isn't acceptable is not learning
+        from mistakes. <br></br>
+        <br></br>
+        Although our team is very talented, we know there's always room for
+        improvement. We're not perfect, and we understand the importance of
+        continuous self-development.
+      </p>
+      <h2>People are more important than processes</h2>
+      <p>
+        We believe that people are more important than processes. We avoid
+        unnecessary rules — they aren't needed when a team of responsible people
+        is working in the company's best interests. Our goal is to inspire
+        people, not to manage them.<br></br>
+        <br></br>
+        For example, we have a flexible work schedule at our company. There are
+        no fixed work hours, and no one is counting. Each employee is
+        responsible for or their results and for communicating with their team,
+        and on the work schedule that will be most effective. <br></br>
+        <br></br>
+        We believe freedom improves results. There's no point in hiring
+        professionals only to tell them how to do their job. We assume that in
+        almost all situations people have good intentions and want to solve real
+        issues. That's why we want our employees to be independent, to be able
+        to make their own mistakes and fix them.<br></br>
+        <br></br>
+        We want every employee to feel involved in everything that's going on in
+        the company. If someone notices a problem, whether it's big or small,
+        they don’t turn a blind eye. Instead, they do everything in their power
+        to find a solution. No one should have to ask for permission to take
+        responsibility.
+      </p>
+      <h2>Distributed Leadership</h2>
+      <p>
+        The company is growing, and its processes and systems are becoming more
+        complicated. As the number of tasks increases, bottlenecks appear at the
+        points where individuals need to approve every decision. We view this as
+        an ineffective approach and believe that our company should have many
+        leaders, which is why we distribute leadership and supervision among all
+        of the company's employees. <br></br>
+        <br></br>
+        We create teams that are independent in their decision-making and give
+        individuals more freedom. We want our employees to make their own
+        decisions and to consult with their managers only when they aren't sure
+        about their choices. <br></br>
+        <br></br>
+        That being said, managers should always be kept in the loop. Every
+        leader's goal is to stay on top of what’s going on while creating an
+        environment that is conducive for making decisions. Sometimes this
+        requires getting into the nitty-gritty details of specific tasks, but
+        the goal isn't to make every little decision or to micromanage. It's
+        more important to create a system in which people can make sound
+        decisions independently, without involving their managers. <br></br>
+        <br></br>
+        Distributed leadership has many advantages. Good decisions are made by
+        the most competent people and work isn’t held back by waiting on
+        unnecessary approvals.
+      </p>
+    </div>
+  );
 }
 
 export default CompanyPage;

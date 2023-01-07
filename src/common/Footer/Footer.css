@@ -49,6 +49,7 @@
 
 .Footer p{
     font-size: 14px !important;
+    margin: 0;
 }
 
 .Footer .Icon{
@@ -68,7 +69,7 @@
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 40px;
-        margin-top: 130px;
+        margin-top: 40px;
         margin-bottom: 100px;
         text-align: center;
         justify-content: center;

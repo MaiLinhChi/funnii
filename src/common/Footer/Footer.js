@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="Footer">
-      <Row gutter={50}>
+      <Row gutter={40}>
         <Col lg={3} md={24}>
           <img src={Images.logo} alt="logo" className="logoBottom" />
         </Col>

@@ -48,6 +48,10 @@
     .listGame::-webkit-scrollbar {
         display: none;
     }
+    .ourGame p {
+        font-size: 14px;
+        line-height: 23px;
+    }
 
     /* Hide scrollbar for IE, Edge and Firefox */
     .listGame {

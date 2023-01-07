@@ -6,12 +6,12 @@ import OurGame from "../../components/OurGame/OurGame";
 import "./Home.css";
 function Home() {
   useEffect(() => {
-    document.title = "Home - Softfun";
+    document.title = "Home - SOFTFUN";
   });
 
   return (
     <div className="homePage">
-      <div className="intro block pd">
+      <div className="intro block">
         <div className="content">
           <h4 id="slogan">Creative IDEA, PLAY FOR FUN</h4>
           <h1 className="namecp-hp">SOFTFUN Games</h1>

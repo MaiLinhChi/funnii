@@ -4,7 +4,7 @@ export const GamesList = [
     titleH: "Bubble Classic",
     title: "Bubble Classic",
     detail:
-      "The newest Heroes game—Create a new hero with unimaginable powers and abilities by selecting and merging heroes",
+      "Bubble Classic is a super fun game with thousands of exciting puzzle levels. Match 3 or more identically colored bubbles to pop the group and blast the bubbles away. Join the adventure today!",
     imgLarge: "images/top1.png",
     imgSmall: "images/game1.png",
     notop: 0,
@@ -15,7 +15,7 @@ export const GamesList = [
     titleH: "Marble Deluxe",
     title: "Marble Deluxe",
     detail:
-      "Thieves Game: Thieves Game is the best option if you are looking for a real robbery shooting game with intends to heist the bank.",
+      "It is easy to play, but addictive. This is a marble shooting game in which you have to shoot the marble with rows of colorful marble lines in order to destroy them.",
     imgLarge: "images/top2.png",
     imgSmall: "images/game2.png",
     notop: 0,
@@ -25,7 +25,7 @@ export const GamesList = [
     titleH: "Majong World",
     title: "Majong World",
     detail:
-      "In the world of Merge Superhero, discover all the parts needed to create superheroes and mysterious powers!",
+      "Welcome to Mahjong World! Let's test your Mahjong skills with more than 500+ levels!",
     imgLarge: "images/top3.png",
     imgSmall: "images/game3.png",
     notop: 0,
@@ -35,7 +35,7 @@ export const GamesList = [
     titleH: "Solitaire",
     title: "Solitaire",
     detail:
-      " Using your amazing strategy to solve and clear up the parking jam right now!",
+      "Using your amazing strategy to solve and clear up the parking jam right now!",
     imgLarge: "images/top4.png",
     imgSmall: "images/game4.png",
     notop: 0,
@@ -45,7 +45,7 @@ export const GamesList = [
     titleH: "Cooking Sotry",
     title: "Cooking Sotry",
     detail:
-      "Customize your own superheroes with unique ideas on trend and get ready for the ultimate battle.",
+      "Let's prepare, cook & serve delicious cuisine like a professional chef and become king of the kitchen as you grill, bake and cook your way.",
     imgLarge: "images/top5.png",
     imgSmall: "images/game5.png",
     notop: 0,
@@ -55,7 +55,7 @@ export const GamesList = [
     titleH: "META DANCE",
     title: "Meta Dance",
     detail:
-      "Dancing your way to victory and hone abilities such as the ability to express emotions, interact with and perceive music, and cultivate reflexes.",
+      "Solitaire used to be a classic computer game. Now we make it easy for people to play Solitaire games on mobile phones and tablets. The most exciting way to pass the time - anywhere, any time for all ages!",
     imgLarge: "images/top6.png",
     imgSmall: "images/game6.png",
     notop: 1,

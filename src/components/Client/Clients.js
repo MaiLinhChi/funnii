@@ -24,10 +24,84 @@ function Clients() {
         {/* <img src={Images.testimony} alt="" className="testimony" /> */}
         <Slider {...settings} className="slider">
           <div className="contentCover">
-            <img src={Images.mintegrallogo} alt="" />
+            <img src={Images.testimony} alt="" className="bg-slider" />
+            <div className="wrapper-img">
+              <img src={Images.person} alt="" className="person" />
+              <img src={Images.bgSlidermb} alt="" className="bg-slidermb" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est
+              ullamcorper mattis lacus eu, ornare imperdiet men sana in
+              condimentum. Viverra id tortor enim posuere nullam. Vitae
+              tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non
+              accumsan tempus, eu suspendisse quis.
+            </p>
+            <span className="name-slider">James Jokovic</span>
+            <span className="job-slider">IT Consultant</span>
           </div>
           <div className="contentCover">
-            <img src={Images.ironsource} alt="" />
+            <img src={Images.testimony} alt="" className="bg-slider" />
+            <div className="wrapper-img">
+              <img src={Images.person} alt="" className="person" />
+              <img src={Images.bgSlidermb} alt="" className="bg-slidermb" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est
+              ullamcorper mattis lacus eu, ornare imperdiet men sana in
+              condimentum. Viverra id tortor enim posuere nullam. Vitae
+              tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non
+              accumsan tempus, eu suspendisse quis.
+            </p>
+            <span className="name-slider">James Jokovic</span>
+            <span className="job-slider">IT Consultant</span>
+          </div>
+          <div className="contentCover">
+            <img src={Images.testimony} alt="" className="bg-slider" />
+            <div className="wrapper-img">
+              <img src={Images.person} alt="" className="person" />
+              <img src={Images.bgSlidermb} alt="" className="bg-slidermb" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est
+              ullamcorper mattis lacus eu, ornare imperdiet men sana in
+              condimentum. Viverra id tortor enim posuere nullam. Vitae
+              tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non
+              accumsan tempus, eu suspendisse quis.
+            </p>
+            <span className="name-slider">James Jokovic</span>
+            <span className="job-slider">IT Consultant</span>
+          </div>
+          <div className="contentCover">
+            <img src={Images.testimony} alt="" className="bg-slider" />
+            <div className="wrapper-img">
+              <img src={Images.person} alt="" className="person" />
+              <img src={Images.bgSlidermb} alt="" className="bg-slidermb" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est
+              ullamcorper mattis lacus eu, ornare imperdiet men sana in
+              condimentum. Viverra id tortor enim posuere nullam. Vitae
+              tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non
+              accumsan tempus, eu suspendisse quis.
+            </p>
+            <span className="name-slider">James Jokovic</span>
+            <span className="job-slider">IT Consultant</span>
+          </div>
+          <div className="contentCover">
+            <img src={Images.testimony} alt="" className="bg-slider" />
+            <div className="wrapper-img">
+              <img src={Images.person} alt="" className="person" />
+              <img src={Images.bgSlidermb} alt="" className="bg-slidermb" />
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est
+              ullamcorper mattis lacus eu, ornare imperdiet men sana in
+              condimentum. Viverra id tortor enim posuere nullam. Vitae
+              tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non
+              accumsan tempus, eu suspendisse quis.
+            </p>
+            <span className="name-slider">James Jokovic</span>
+            <span className="job-slider">IT Consultant</span>
           </div>
         </Slider>
       </div>
