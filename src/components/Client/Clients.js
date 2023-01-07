@@ -1,9 +1,9 @@
-import React from 'react';
-import './Clients.css';
+import React from "react";
+import "./Clients.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Images from '../../config/Images';
-import Slider from 'react-slick';
+import Images from "../../config/Images";
+import Slider from "react-slick";
 function Clients() {
   const settings = {
     dots: true,
@@ -15,22 +15,23 @@ function Clients() {
     arrows: false,
     autoplay: true,
     autoplaySpeed: 5000,
-  }
+  };
   return (
     <div className="client block">
-      <h2>Our Partners</h2>
+      <span className="subtitle-client">Testimony</span>
+      <h2 className="title-client">What Do Our Clients Says About Us</h2>
       <div className="cover">
-        <Slider {...settings} className='slider'>
+        {/* <img src={Images.testimony} alt="" className="testimony" /> */}
+        <Slider {...settings} className="slider">
           <div className="contentCover">
-             <img src={Images.mintegrallogo} alt="" />
+            <img src={Images.mintegrallogo} alt="" />
           </div>
           <div className="contentCover">
-           <img src={Images.ironsource} alt="" />
-          </div>  
+            <img src={Images.ironsource} alt="" />
+          </div>
         </Slider>
       </div>
       <br />
-      <p className='PartnerText'>We look for the best partners and together we deliver their incredible games to players on all platforms and devices.</p>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Poppins';
+    font-family: 'Tahoma';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -10,7 +10,12 @@ body {
   background-position: right center, left bottom;
   background-repeat:  no-repeat, no-repeat;
   background-size: 20%;
-  background-origin: border-box
+  background-origin: border-box;
+  background: linear-gradient(180.07deg, #4200FF -63.07%, #FFFFFF 45.6%, #E8E6F5 99.94%);
+}
+
+.pd {
+  padding: 20px 20px;
 }
 
 @media screen and (max-width: 600px){

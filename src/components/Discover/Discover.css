@@ -2,8 +2,6 @@
     text-align: center;
 }
 
-
-
 .ant-divider {
     background-color: #5E5E5E;
     height: 100%;
@@ -25,14 +23,15 @@
 }
 
 .detail_numbers {
-    font-weight: 900 !important;
-    font-size: 43px;
+    font-weight: 600;
+    font-size: 40px;
     line-height: 29px;
-    color: #EA0000;
+    color: #3F52FF;
     padding-top: 20px;
 }
 
 .detail_words {
+    margin-top: 16px;
     font-weight: 400;
     font-size: 22px;
     line-height: 29px;
@@ -42,7 +41,13 @@
 
 
 @media only screen and (max-width: 600px) {
-    
+    .discover {
+        margin-top: 50px;
+    }    
+
+    .title-discover {
+        font-size: 30px;
+    }
 
     .detail_numbers {
         font-size: 30px !important;
@@ -51,6 +56,7 @@
 
     .detail_words {
         font-size: 18px !important;
+        margin-top: 4px;
     }
     .info_detail {
         height: auto;
@@ -60,7 +66,7 @@
         display: none;
     }
     .discover_info {
-        gap: 40px;
+        gap: 20px;
         flex-direction: column;
     }
 

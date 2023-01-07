@@ -1,3 +1,30 @@
+.cover {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.subtitle-client{
+    color: #1E1C31;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 24px;
+}
+
+.testimony {
+    width: 60% !important;
+    height: auto;
+    border-radius: 42px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.title-client {
+    margin-bottom: 40px;
+}
+
 .cover .slick-slider {
     justify-content: center;
     text-align: center;
@@ -23,5 +50,10 @@
     }
     .PartnerText{
         width: 90%;
+    }
+
+    .subtitle-client {
+        font-size: 20px;
+        line-height: 16px;
     }
 }

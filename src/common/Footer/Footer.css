@@ -10,7 +10,7 @@
 }
 .inputWithButton{
     position: relative;
-    width: 60%;
+    width: 100%;
     margin-bottom: 0;
 }
 
@@ -35,6 +35,10 @@
     top: 4.5px
 }
 
+.follow-footer {
+    margin: 20px 0;
+}
+
 .inputWithButton button:hover{
     background-color: transparent;
 }
@@ -53,7 +57,7 @@
 }
 
 .Footer .logoBottom{
-    width: 30%;
+    width: 80%;
 }
 
 @media only screen and (max-width: 900px) {

@@ -15,7 +15,7 @@
     font-weight: 550 !important;
     font-size: 25px !important;
     color: black;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 .card{
     transition: transform 0.5s;
@@ -36,6 +36,25 @@
     }
     .listGame{
         gap: 10px;
+        flex-wrap: nowrap;
+        align-items: center;
+        overflow: auto;
+        justify-content: unset;
+        padding: 0 20px;
+        max-height: 240px;
+        min-height: 232px;
+    }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .listGame::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .listGame {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
     }
     .nameGame{
         font-size: 16px !important;

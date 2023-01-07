@@ -1,11 +1,15 @@
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 15px 0;
 }
 .header li Link:active{
     color: red;
+}
+li > a {
+    padding: 0 10px;
+}
+li > .active {
+    background-color: #3F52FF;
 }
 .logo {
     padding-left: 100px;
@@ -29,14 +33,16 @@
     line-height: 33px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #7A7A7A;
+    color: #3F52FF;
 }
 
 .mobileHidden ul li  :hover{
-    color: red;
+    color: white;
 }
 
-
+.no-bg {
+    background-color: transparent !important;
+}
 
 .mobileVisible{
     display: none;
@@ -67,10 +73,14 @@
     .mobileVisible {
         display: block;
     }
-    
-    .mobileVisible img{
+
+    .mobileVisible + img {
+        display: block;
         width: 40px;
-        padding-right: 15px ;
+    }
+
+    .menu-icon {
+        width: 30px;
     }
 
     .mobileHidden {
@@ -79,7 +89,13 @@
     .logo {
         padding: 0;
     }
-    
+
+    .logo-mobile {
+        width: 64px;
+    }
+    .header {
+        align-items: center;
+    }
 }
 @media (min-width:940px) and (max-width: 1076px) {
     .mobileHidden ul li a{
