@@ -1,7 +1,47 @@
-* {
-  margin: 0;
+@font-face {
+  font-family: 'Arial';
+  font-weight: 400;
+  src: url("./assets/fonts/arial.ttf");
+}
+@font-face {
+  font-family: 'Arial';
+  font-weight: 700;
+  src: url("./assets/fonts/arialbd.ttf");
+}
+@font-face {
   font-family: 'Tahoma';
+  font-weight: 400;
+  src: url("./assets/fonts/tahoma.ttf");
+}
+@font-face {
+  font-family: 'Tahoma';
+  font-weight: 700;
+  src: url("./assets/fonts/tahomabd.ttf");
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 400;
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 500;
+  src: url("./assets/fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 600;
+  src: url("./assets/fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 700;
+  src: url("./assets/fonts/Poppins-Bold.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: Tahoma, sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-

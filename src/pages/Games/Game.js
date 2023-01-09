@@ -61,7 +61,9 @@ function GamePage() {
 
   return (
     <div className="GamePage">
-      <Discover></Discover>
+      <div className="wrapper-discover">
+        <Discover></Discover>
+      </div>
       <div className="topGame">
         <h2>Top game</h2>
         <p>SOFTFUN is one of the top 3 mobile gaming companies in the SEA</p>

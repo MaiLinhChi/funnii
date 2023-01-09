@@ -13,7 +13,7 @@ function AboutPage() {
     <div className="AboutPage block">
       <div className="mobileDisplayBg">
         <h2>We are SOFTFUN</h2>
-        <p>
+        <p style={{ padding: "0 20px" }}>
           An international digital games and entertainment company. A leader in
           multiplayer games, with a purpose to ‘unleash the gamer in everyone’
           with more than 4 billion downloads to date. Powered by amazing people.
@@ -24,18 +24,24 @@ function AboutPage() {
         <div className="bgContent mobileHiddenContent">
           <h2>We are SOFTFUN</h2>
           <p>
-            An international digital games and entertainment company. A leader
-            in multiplayer games, with a purpose to ‘unleash the gamer in
-            everyone’ with more than 4 billion downloads to date. Powered by
-            amazing people.
+            An international digital games and entertainment company. <br></br>A
+            leader in multiplayer games, with a purpose to ‘unleash the gamer in
+            everyone’ <br></br>with more than 4 billion downloads to date.
+            <br></br>
+            Powered by amazing people.
           </p>
         </div>
       </div>
       <div className="philosophy block">
-        <h2>We aim to inspire rather than manage our employees</h2>
+        <h2>
+          We aim to <span className="color-about">inspire</span> rather than
+          manage our employees
+        </h2>
       </div>
       <div className="work">
-        <h2>Work from anywhere in the world</h2>
+        <h3>
+          Work from <span className="color-about">anywhere in the world</span>
+        </h3>
         <p>
           Our employees choose whether to work from home, a coworking space, or
           one of our many offices.

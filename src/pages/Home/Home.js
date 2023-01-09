@@ -20,7 +20,7 @@ function Home() {
           </p>
         </div>
         <div className="backgroundHome">
-          <img src={Images.piggy} alt="" />
+          <img src={Images.piggy} alt="" className="piggy" />
         </div>
         <div className="backgroundHome-mobile">
           <img style={{ height: 278, width: 230 }} src={Images.piggy} alt="" />
@@ -29,10 +29,12 @@ function Home() {
       <Discover></Discover>
       <OurGame></OurGame>
       <div className="Company block pd">
-        <h2>
+        <h2 className="title-softfun">
           Life at <span className="style-text">SOFTFUN</span>
         </h2>
-        <p>Our employees can work from anywhere in the world</p>
+        <p className="subtitle-sortfun">
+          Our employees can work from anywhere in the world
+        </p>
         <div className="companyBG">
           <img src={Images.christmas} alt="" />
           <button className="btn-primary">See more</button>

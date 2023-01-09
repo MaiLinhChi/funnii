@@ -1,24 +1,52 @@
 .CompanyPage{
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: justify;
+    max-width: 926px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins';
+    font-size: 22px;
 }
-.CompanyPage h2{
-    font-size: 34px;
-    font-weight: bolder;
-    margin-top: 20px;
-    margin-bottom: 0;
-
+.CompanyPage h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #1E1C31;
+    margin-top: 50px;
 }
-   
+.CompanyPage h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    margin-left: 10px;
+}
+.CompanyPage ul {
+    margin-left: 10px;
+}
+.title-our {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 90px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.subtitle-company {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
 
 @media only screen and (max-width: 900px) {
     
     .CompanyPage{
        margin-left: 2% !important;
        margin-right: 2% !important;
+       font-size: 16px;
+       text-align: start;
     }
-    
 }
 
 

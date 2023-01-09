@@ -1,6 +1,8 @@
 .header {
     display: flex;
     justify-content: space-between;
+    max-width: 1158px;
+    margin: 0 auto;
 }
 .header li Link:active{
     color: red;
@@ -11,15 +13,11 @@ li > a {
 li > .active {
     background-color: #3F52FF;
 }
-.logo {
-    padding-left: 100px;
-}
 
 .mobileHidden ul {
     float: right;
     list-style-type: none;
     display: flex;
-    padding-right: 200px;
     padding-top: 10px;
 }
 

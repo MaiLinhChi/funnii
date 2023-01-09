@@ -14,7 +14,7 @@ export const Card = (props) => {
 function OurGame(props) {
   return (
     <div className="ourGame block">
-      <h2>Our games</h2>
+      <h2 className="title-ourgame">Our games</h2>
       <p style={{ padding: "0 44px" }}>
         Over 10 million people play our games every month
       </p>

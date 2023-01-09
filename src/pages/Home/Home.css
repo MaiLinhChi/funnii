@@ -3,14 +3,27 @@
     width: 100%;
 }
 .block {
-    margin-top: 80px;
+    margin-top: 120px;
+}
+.namecp-hp {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 76px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.piggy {
+    animation: piggy 1s ease-in-out infinite;
 }
 #slogan {
-    font-weight: 300;
+    font-family: Arial;
+    font-weight: 400;
     font-size: 25px;
     line-height: 24px;
-    color: #1E1C31;
+    text-align: center;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
+    color: #1E1C31;
 }
 
 #slogan2 {
@@ -23,12 +36,19 @@
     line-height: 29px;
     text-align: center;
     margin-bottom: 0;
+    font-family: Arial;
 }
 
 .intro{
     position: relative;
     display: block;
 }
+
+.backgroundHome img {
+
+}
+
+
 
 .backgroundHome, .backgroundHome-mobile{
     width: 100%;
@@ -70,29 +90,32 @@
     margin: 10px 0;
 }
 
-p{
-    font-weight: 400;
-    font-size: 18px;
-    color:#1E1C31;
-}
-h2 {
-    color: #1E1C31;
+.title-softfun {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
     font-size: 50px;
-    font-weight: 900 !important;
-    margin-bottom: 0;
+    line-height: 61px;
+    color: #1E1C31;
+}
+
+.subtitle-sortfun {
+    font-family: 'Poppins';
+    font-style: normal;
 }
 
 .companyBG{
     position: relative;
     width: 100%;
-    margin-top: 40px;
+    max-width: 1080px;
+    margin: 40px auto 0 auto;
 }
 
 .companyBG img{
-    width: 80%;
-    max-height: 600px;
+    width: 100%;
+    max-height: 100%;
     border-radius: 42px;
-
+    object-fit: cover;
 }
 
 .companyBG:before{
@@ -100,11 +123,12 @@ h2 {
     position:absolute;
     top: 0;
     right: 0;
-    left: 10%;
+    left: 0;
     bottom: 0;
     z-index: 1;
-    width: 80%;
+    width: 100%;
     background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #3550AD 100%);
+    opacity: 0.7;
     border-radius: 42px;
 }
 
@@ -125,6 +149,8 @@ h2 {
     border: none;
     outline: none;
     border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
 }
 @media only screen and (max-width: 1024px) {
     .content{
@@ -153,7 +179,7 @@ h2 {
     }
     #slogan {
         font-weight: 300;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
         color: #1E1C31;
         text-transform: uppercase;
@@ -170,7 +196,7 @@ h2 {
     .companyBG img{
         width: 100%;
         border-radius: 15px ;
-        height: 250px;
+        height: auto;
     }
     .companyBG:before{
         border-radius: 15px;
@@ -195,9 +221,48 @@ h2 {
     }
     #slogan2{
         font-size: 15px;
+        max-width: 250px;
+    }
+    .title-softfun {
+        font-size: 30px;
+        line-height: 26px;
+    }
+    .title-ourgame {
+        font-size: 30px;
+        line-height: 26px;
+    }
+    .title-client {
+        font-size: 30px;
+        line-height: 30px;
     }
 }
 
 
+/* react slick */
+.slick-dots li {
+    width: 4px;
+    height: auto;
+}
 
+.slick-dots li button:before {
+    width: 4px;
+    color: #4270EB;
+}
 
+.slick-dots li.slick-active button:before {
+    color: #4270EB;
+}
+
+@keyframes piggy {
+    0% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translateY(-10%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

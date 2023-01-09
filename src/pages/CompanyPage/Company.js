@@ -7,8 +7,8 @@ function CompanyPage() {
 
   return (
     <div className="CompanyPage block">
-      <h1 className="title-company">Our culture</h1>
-      <p style={{ textAlign: "center" }}>
+      <h1 className="title-our">Our culture</h1>
+      <p style={{ textAlign: "center" }} className="subtitle-company">
         Our culture is our most important investment in the company's future.
         It's what helps us remain successful in an ever-changing world.
       </p>
@@ -57,7 +57,7 @@ function CompanyPage() {
           their face
         </li>
       </ul>
-      <p>
+      <p style={{ margin: "40px 0px 40px 20px" }}>
         Coming up with overarching values is easy — it's much more difficult to
         follow them every day. We want all of our employees to help each other
         follow these values and embody the qualities described in them.
