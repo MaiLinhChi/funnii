@@ -23,7 +23,12 @@ function Home() {
           <img src={Images.piggy} alt="" className="piggy" />
         </div>
         <div className="backgroundHome-mobile">
-          <img style={{ height: 278, width: 230 }} src={Images.piggy} alt="" />
+          <img
+            style={{ height: 278, width: 230 }}
+            src={Images.piggy}
+            alt=""
+            className="piggy"
+          />
         </div>
       </div>
       <Discover></Discover>
