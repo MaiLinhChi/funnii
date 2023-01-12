@@ -4,6 +4,10 @@ import "./Company.css";
 function CompanyPage() {
   useEffect(() => {
     document.title = "Company - Softfun";
+    window.scroll({
+      top: 0,
+      behavior: "smooth",
+    });
   });
 
   return (

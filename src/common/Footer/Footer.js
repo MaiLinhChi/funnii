@@ -111,10 +111,10 @@ function Footer() {
             </button>
           </div>
           <p className="item-footer">
-            <a href="/terms-of-use">Term of Services</a>
+            <NavLink to="/terms-of-use">Term of Services</NavLink>
           </p>
           <p className="item-footer">
-            <a href="/privacy-policy">Privacy Policy</a>
+            <NavLink to="/privacy-policy">Privacy Policy</NavLink>
           </p>
           <h5 className="follow-footer">Follow Us</h5>
           <a
