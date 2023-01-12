@@ -21,8 +21,8 @@ function Footer() {
 
   return (
     <div className="Footer">
-      <Row gutter={90}>
-        <Col lg={4} md={24} className="menu-bottom">
+      <Row gutter={60}>
+        <Col lg={4} md={24} className="menu-bottom mb">
           <img src={Images.logo} alt="logo" className="logoBottom" />
           <img
             src={Images.menuRepo}
@@ -88,22 +88,21 @@ function Footer() {
             </ul>
           </Drawer>
         </Col>
-        <Col lg={6} md={24} className="out-contract">
+        <Col lg={6} md={24} className="out-contract mb">
           <h5>Our Contact</h5>
-          <p>
-            Office: 289 Truong Chinh, P. Tan Thoi Nhat, Q.12, TP.Ho Chi Minh
-          </p>
-          <p>Phone : +842838530531</p>
-          <p>Email: softfun.net</p>
+          <p>Office: No. 289 Truong Chinh address, Tan Thoi Nhat Ward, HCMC</p>
+          <p>Phone : +842 838 530 531</p>
+          <p>Email: contact@softfun.net</p>
         </Col>
-        <Col lg={6} md={24} className="hidden">
+        <Col lg={6} md={24} className="hidden mb">
           <h5>About Us</h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo
-            amet posuere porta vitae mi accumsan. Ultricies
+            SOFTFUN - An international digital games and entertainment company
+            powered by amazing people, with more than 4 billion downloads to
+            date.
           </p>
         </Col>
-        <Col lg={7} md={24}>
+        <Col lg={7} md={24} className="mb">
           <h5 className="hidden">Subcribe</h5>
           <div className="inputWithButton hidden">
             <input type="email" placeholder="Your Email" />
@@ -111,9 +110,15 @@ function Footer() {
               <img src={Images.submit} alt="" />
             </button>
           </div>
+          <p className="item-footer">
+            <a href="/terms-of-use">Term of Services</a>
+          </p>
+          <p className="item-footer">
+            <a href="/privacy-policy">Privacy Policy</a>
+          </p>
           <h5 className="follow-footer">Follow Us</h5>
           <a
-            href=" https://www.facebook.com/profile.php?id=100064234053555"
+            href="https://www.facebook.com/people/Softfun-JSC/100066876312809/?mibextid=LQQJ4d"
             target="_blank"
           >
             <img className="Icon" src={Images.fbIcon} alt="fbIcon" />

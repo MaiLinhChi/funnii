@@ -2,7 +2,7 @@ import { React, useEffect } from "react";
 import "./Company.css";
 function CompanyPage() {
   useEffect(() => {
-    document.title = "Company - SORTFUN";
+    document.title = "Company - Softfun";
   });
 
   return (

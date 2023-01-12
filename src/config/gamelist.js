@@ -22,8 +22,8 @@ export const GamesList = [
   },
   {
     id: 3,
-    titleH: "Majong World",
-    title: "Majong World",
+    titleH: "Mahjong World",
+    title: "Mahjong World",
     detail:
       "Welcome to Mahjong World! Let's test your Mahjong skills with more than 500+ levels!",
     imgLarge: "images/top3.png",
@@ -32,8 +32,8 @@ export const GamesList = [
   },
   {
     id: 4,
-    titleH: "Solitaire",
-    title: "Solitaire",
+    titleH: "Traffic Jam",
+    title: "Traffic Jam",
     detail:
       "Using your amazing strategy to solve and clear up the parking jam right now!",
     imgLarge: "images/top4.png",
@@ -42,8 +42,8 @@ export const GamesList = [
   },
   {
     id: 5,
-    titleH: "Cooking Sotry",
-    title: "Cooking Sotry",
+    titleH: "Cooking Story",
+    title: "Cooking Story",
     detail:
       "Let's prepare, cook & serve delicious cuisine like a professional chef and become king of the kitchen as you grill, bake and cook your way.",
     imgLarge: "images/top5.png",
@@ -52,8 +52,8 @@ export const GamesList = [
   },
   {
     id: 6,
-    titleH: "META DANCE",
-    title: "Meta Dance",
+    titleH: "Solitaire",
+    title: "Solitaire",
     detail:
       "Solitaire used to be a classic computer game. Now we make it easy for people to play Solitaire games on mobile phones and tablets. The most exciting way to pass the time - anywhere, any time for all ages!",
     imgLarge: "images/top6.png",

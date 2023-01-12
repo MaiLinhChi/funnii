@@ -2,7 +2,7 @@ import { React, useEffect } from "react";
 import "./Company.css";
 function CompanyPage() {
   useEffect(() => {
-    document.title = "Company - SORTFUN";
+    document.title = "Company - Softfun";
   });
 
   return (
@@ -38,8 +38,9 @@ function CompanyPage() {
         <p>
           For a better experience, while using our Service, I may require you to
           provide us with certain personally identifiable information, including
-          but not limited to contact@funnii.net . The information that I request
-          will be retained on your device and is not collected by me in any way.
+          but not limited to contact@softfun.net . The information that I
+          request will be retained on your device and is not collected by me in
+          any way.
         </p>
         <p>
           The app does use third party services that may collect information

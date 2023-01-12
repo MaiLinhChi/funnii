@@ -6,7 +6,7 @@ import OurGame from "../../components/OurGame/OurGame";
 import "./Home.css";
 function Home() {
   useEffect(() => {
-    document.title = "Home - SOFTFUN";
+    document.title = "Home - Softfun";
   });
 
   return (
@@ -34,15 +34,12 @@ function Home() {
       <Discover></Discover>
       <OurGame></OurGame>
       <div className="Company block pd">
-        <h2 className="title-softfun">
-          Life at <span className="style-text">SOFTFUN</span>
-        </h2>
+        <h2 className="title-softfun">2023 GAME EVENTS UPDATE</h2>
         <p className="subtitle-sortfun">
-          Our employees can work from anywhere in the world
+          Let's explore what's happening in our games right now
         </p>
         <div className="companyBG">
           <img src={Images.christmas} alt="" />
-          <button className="btn-primary">See more</button>
         </div>
       </div>
       <Clients></Clients>

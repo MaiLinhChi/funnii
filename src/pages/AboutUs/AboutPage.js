@@ -6,7 +6,7 @@ import { Image } from "antd";
 
 function AboutPage() {
   useEffect(() => {
-    document.title = "About Us - SORTFUN";
+    document.title = "About Us - Softfun";
   });
 
   return (

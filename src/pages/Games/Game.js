@@ -56,7 +56,7 @@ function GamePage() {
   };
 
   useEffect(() => {
-    document.title = "Our Games - SOFTFUN";
+    document.title = "Our Games - Softfun";
   });
 
   return (

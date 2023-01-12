@@ -54,6 +54,11 @@
     color: #1E1C31;
 }
 
+.desc-slider {
+    padding: 0 10px;
+    word-wrap: break-word;
+}
+
 .job-slider {
     display: block;
     margin-bottom: 50px;
@@ -159,7 +164,7 @@
     }
 
     .wrapper-img .person {
-        width: 100px;
+        width: 70px;
     }
 
     .cover .slick-slider{
