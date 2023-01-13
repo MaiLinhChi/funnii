@@ -43,7 +43,7 @@ function Footer() {
                   to="/home"
                   className="no-bg"
                 >
-                  <img src={Images.logoBottom} alt="" />
+                  <img src={Images.logo} alt="" />
                 </NavLink>
               </li>
               <br />

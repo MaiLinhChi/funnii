@@ -7,7 +7,7 @@ function Discover() {
       <h2 className="title-discover">Discover our games</h2>
       <div className="discover_info">
         <div className="info_detail">
-          <div className="detail_numbers">20 million</div>
+          <div className="detail_numbers">5M+</div>
           <div className="detail_words">downloads</div>
         </div>
         <div className="info_detail hidden">
