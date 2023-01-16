@@ -7,6 +7,10 @@ import { Image } from "antd";
 function AboutPage() {
   useEffect(() => {
     document.title = "About Us - Softfun";
+    window.scroll({
+      top: 0,
+      behavior: "smooth",
+    });
   });
 
   return (

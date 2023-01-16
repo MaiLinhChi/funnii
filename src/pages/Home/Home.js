@@ -7,6 +7,10 @@ import "./Home.css";
 function Home() {
   useEffect(() => {
     document.title = "Home - Softfun";
+    window.scroll({
+      top: 0,
+      behavior: "smooth",
+    });
   });
 
   return (

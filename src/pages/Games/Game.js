@@ -57,6 +57,10 @@ function GamePage() {
 
   useEffect(() => {
     document.title = "Our Games - Softfun";
+    window.scroll({
+      top: 0,
+      behavior: "smooth",
+    });
   });
 
   return (
