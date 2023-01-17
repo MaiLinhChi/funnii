@@ -33,7 +33,7 @@ export const GamesList = [
   {
     id: 4,
     titleH: "Traffic Jam",
-    title: "Traffic Jam",
+    title: "Solitaire",
     detail:
       "Using your amazing strategy to solve and clear up the parking jam right now!",
     imgLarge: "images/top4.png",

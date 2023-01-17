@@ -4,6 +4,7 @@
     margin-right: auto;
     font-family: 'Poppins';
     font-size: 22px;
+    padding: 0 20px;
 }
 .CompanyPage h2 {
     font-family: 'Poppins';
@@ -19,8 +20,9 @@
     line-height: 22px;
     margin-left: 10px;
 }
-.CompanyPage ul {
-    margin-left: 10px;
+.wrapper-ul {
+    margin-left: 50px;
+    font-size: 20px;
 }
 .title-our {
     font-family: 'Poppins';
@@ -34,18 +36,29 @@
 .subtitle-company {
     font-style: normal;
     font-weight: 400;
-    font-size: 23px;
+    font-size: 22px;
     line-height: 30px;
     margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 900px) {
-    
+    .wrapper-ul {
+        margin-left: 20px;
+    }
     .CompanyPage{
        margin-left: 2% !important;
        margin-right: 2% !important;
        font-size: 16px;
        text-align: start;
+    }
+    .subtitle-company {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .wrapper-ul {
+        font-size: 16px;
+        margin-left: 10px;
     }
 }
 

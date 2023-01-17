@@ -8,6 +8,7 @@
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .color-about {
@@ -40,14 +41,14 @@
     left: 50%;
     z-index: 2;
     position: absolute;
-    width: 100%;
+    width: calc(100% - 40px);
 }
 
 .bgInfo::before{
     content: "";
-    width: 100%;
+    width: calc(100% - 40px);
     top: 80%;
-    left: 0;
+    left: 20px;
     right: 0;
     bottom: 0;
     background: linear-gradient(185.04deg, rgba(0, 0, 0, 0) 30.99%, #6444E6 94.93%);
@@ -61,20 +62,21 @@
     font-style: normal;
     font-weight: 700;
     font-size: 100px;
-    line-height: 61px;
+    line-height: 110px;
     text-align: center;
     color: #FFFFFF;
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
 .bgContent p  {
-    color: white !important;
-    font-size: 18px !important;
+    color: white;
+    font-size: 18px;
 }
 
 .bgContent > p {
-    max-width: 766px;
+    max-width: 1081px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .work{
@@ -107,9 +109,9 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
     max-width: 926px;
-    line-height: 14px;
+    font-size: 25px;
+    line-height: 30px;
     color: #1E1C31;
     margin: 30px auto 62px auto;
 }
@@ -135,8 +137,9 @@
 .mobileDisplayBg{
     display: none;
 }
+
 .philosophy{
-    width: 50%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -144,14 +147,25 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 601px) and (max-width: 850px) {
+    .bgContent p {
+        font-size: 16px;
+    }
+    .bgContent h2 {
+        font-size: 70px;
+        line-height: 80px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
     .bgInfo{
         margin-top: 20px;
     }
     .bgInfo img{
         height: auto;
-        width: 90%;
-        max-height: 180px;
+        width: 100%;
+        max-height: auto;
         border-radius: 10px;
         margin-top: 0;
     }
@@ -163,10 +177,12 @@
         padding: 0 20px;
         margin-top: 10px;
         margin-bottom: 30px;
+        font-size: 13px;
+        line-height: 16px;
     }
     .work h3 {
         font-size: 28px;
-        line-height: 40px;
+        line-height: 36px;
         padding: 0 20px;
     }
     .bgInfo::before{

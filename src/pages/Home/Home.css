@@ -5,6 +5,12 @@
 .block {
     margin-top: 120px;
 }
+.show-mb {
+    display: none;
+}
+.show-pc {
+    padding: 0 20px;
+}
 .namecp-hp {
     font-weight: 400;
     font-size: 70px;
@@ -25,7 +31,7 @@
 }
 
 #slogan2 {
-    color: #1E1C31;
+    color: rgba(30, 28, 49, 0.6);
     max-width: 534px;
     margin-left: auto;
     margin-right: auto;
@@ -158,9 +164,15 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .block {
         margin-top: 50px;
+    }
+    .show-mb {
+        display: block;
+    }
+    .show-pc {
+        display: none;
     }
     h1{
         font-size: 36px !important;

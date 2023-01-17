@@ -1,5 +1,5 @@
 const Images = {
-  logo: "images/Logo.png",
+  logo: "images/logo.svg",
   testimony: "images/testimony.png",
   piggy: "images/piggy.png",
   menuRepo: "images/menu-svgrepo.png",

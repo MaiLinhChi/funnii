@@ -12,6 +12,7 @@ function CompanyPage() {
 
   return (
     <div className="CompanyPage block">
+      <h1 className="title-term">Terms of use</h1>
       <h2 style={{ textTransform: "uppercase" }}>Softfun Terms of use</h2>
       <div className="tyJCtd mGzaTb Depvyb baZpAe">
         <p dir="ltr" className="CDt4Ke zfr3Q">

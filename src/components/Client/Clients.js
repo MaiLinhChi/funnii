@@ -48,8 +48,8 @@ function Clients() {
   ];
   return (
     <div className="client block">
-      <span className="subtitle-client">Testimony</span>
-      <h2 className="title-client">What Do Our Users Says About Us</h2>
+      {/* <span className="subtitle-client">Testimony</span> */}
+      <h2 className="title-client">Voice of our game players</h2>
       <div className="cover">
         <img src={Images.testimony} alt="" className="testimony-pc" />
         <img src={Images.bgSlidermb} alt="" className="testimony-mb" />

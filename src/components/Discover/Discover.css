@@ -12,6 +12,10 @@
     color: #1E1C31;
 }
 
+.title-discover.pc {
+    font-weight: 400;
+}
+
 .ant-divider {
     background-color: #5E5E5E;
     height: 100%;

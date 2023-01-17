@@ -66,11 +66,16 @@ function GamePage() {
   return (
     <div className="GamePage">
       <div className="wrapper-discover">
-        <Discover></Discover>
+        <Discover title="DISCOVER SOFTFUN NEW ACHIEVEMENTS" />
       </div>
       <div className="topGame">
-        <h2>Top game</h2>
-        <p>SOFTFUN is one of the top 3 mobile gaming companies in the SEA</p>
+        <h2 className="show-pc" style={{ marginBottom: 100 }}>
+          The Top Puzzle game of SOFTFUN
+        </h2>
+        <h2 className="show-mb">Top game</h2>
+        <p className="subtitle-topgame show-mb">
+          SOFTFUN is one of the top 3 mobile gaming companies in the SEA
+        </p>
         <div className="listToGame">
           {GamesList.map((item) => {
             return (
@@ -97,7 +102,7 @@ function GamePage() {
         </Slider>
       </div>
 
-      <OurGame></OurGame>
+      <OurGame title="Over 1 million users play our games every month..." />
     </div>
   );
 }

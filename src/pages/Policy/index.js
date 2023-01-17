@@ -11,6 +11,7 @@ function CompanyPage() {
 
   return (
     <div className="CompanyPage block">
+      <h1 className="title-policy">PRIVACY POLICY</h1>
       <h2>PRIVACY POLICY</h2>
       <div className="PrivacyPolicy-content style-content">
         <p>

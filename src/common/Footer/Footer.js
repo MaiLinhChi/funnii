@@ -21,7 +21,7 @@ function Footer() {
 
   return (
     <div className="Footer">
-      <Row gutter={60}>
+      <Row gutter={100}>
         <Col lg={4} md={24} className="menu-bottom mb">
           <img src={Images.logo} alt="logo" className="logoBottom" />
           <img
@@ -88,22 +88,22 @@ function Footer() {
             </ul>
           </Drawer>
         </Col>
-        <Col lg={6} md={24} className="out-contract mb">
+        <Col lg={10} md={24} className="out-contract mb">
           <h5>Our Contact</h5>
           <p>Office: No. 289 Truong Chinh address, Tan Thoi Nhat Ward, HCMC</p>
-          <p>Phone : +842 838 530 531</p>
+          <p style={{ marginTop: 20 }}>Phone : +842 838 530 531</p>
           <p>Email: contact@softfun.net</p>
         </Col>
-        <Col lg={6} md={24} className="hidden mb">
+        {/* <Col lg={6} md={24} className="hidden mb">
           <h5>About Us</h5>
           <p>
             SOFTFUN - An international digital games and entertainment company
             powered by amazing people, with more than 4 billion downloads to
             date.
           </p>
-        </Col>
-        <Col lg={7} md={24} className="mb">
-          <h5 className="hidden">Subcribe</h5>
+        </Col> */}
+        <Col lg={10} md={24} className="mb">
+          <h5 className="hidden">Subscribe us</h5>
           <div className="inputWithButton hidden">
             <input type="email" placeholder="Your Email" />
             <button type="submit">

@@ -3,6 +3,12 @@
     margin: 0 auto;
 }
 
+.subtitle-topgame {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .GamePage .backgroundGamePage {
     background-size: cover;
     width: 100%;
@@ -10,7 +16,7 @@
 }
 
 .topGame {
-    margin-top: 120px
+    margin-top: 60px
 }
 
 .topGame h2 {
