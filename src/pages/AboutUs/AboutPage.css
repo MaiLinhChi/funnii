@@ -45,6 +45,7 @@
 }
 
 .bgInfo::before{
+    display: none;
     content: "";
     width: calc(100% - 40px);
     top: 80%;
@@ -170,7 +171,7 @@
         margin-top: 0;
     }
     .work {
-        margin-top: 70px;
+        margin-top: 50px;
     }
     .work p {
         width: 100%;
@@ -188,7 +189,6 @@
     .bgInfo::before{
         width: 90%;
         left: 5%;
-        
     }
 
     .imgWork img{
@@ -203,8 +203,13 @@
         margin-right: 7px;
         font-size: 13px;
     }
-    .philosophy{
-        display: none;
+    .philosophy {
+        margin-top: 70px;
+        padding: 0 20px;
+    }
+    .philosophy h2{
+        font-size: 28px;
+        line-height: 36px;
     }
     .bgInfo::before{
         border-radius: 10px;

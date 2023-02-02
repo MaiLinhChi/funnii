@@ -56,16 +56,16 @@
 
 @media only screen and (max-width: 600px) {
     .discover {
-        margin-top: 50px;
+        margin-top: 20px;
     }    
 
     .title-discover {
-        font-size: 30px;
+        font-size: 20px;
+        line-height: 32px;
     }
 
     .detail_numbers {
         font-size: 30px !important;
-        
     }
 
     .detail_words {
@@ -80,6 +80,7 @@
         display: none;
     }
     .discover_info {
+        margin-top: 10px;
         gap: 20px;
         flex-direction: column;
     }

@@ -5,7 +5,7 @@ function Discover({ title }) {
   return (
     <div className="discover">
       <h2 className="title-discover pc show-pc">{title}</h2>
-      <h2 className="title-discover show-mb">Discover our games</h2>
+      {/* <h2 className="title-discover show-mb">Discover our games</h2> */}
       <div className="discover_info">
         <div className="info_detail">
           <div className="detail_numbers">5M+</div>

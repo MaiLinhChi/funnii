@@ -23,7 +23,7 @@
     font-family: Arial;
     font-weight: 400;
     font-size: 25px;
-    line-height: 24px;
+    line-height: 28px;
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -66,7 +66,7 @@
         color: red;
     }
     .Company > p {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 @media only screen and (min-width: 900px) {
@@ -171,20 +171,20 @@
     .show-mb {
         display: block;
     }
-    .show-pc {
+    /* .show-pc {
         display: none;
-    }
+    } */
     h1{
-        font-size: 36px !important;
-        line-height: 36px !important;
+        font-size: 26px !important;
+        line-height: 30px !important;
     }
     h2{
         font-size: 32px;
     }
     #slogan {
         font-weight: 300;
-        font-size: 14px;
-        line-height: 24px;
+        font-size: 12px;
+        line-height: 22px;
         color: #1E1C31;
         text-transform: uppercase;
     } 
@@ -228,15 +228,15 @@
         max-width: 250px;
     }
     .title-softfun {
-        font-size: 30px;
-        line-height: 26px;
+        font-size: 26px;
+        line-height: 30px;
     }
     .title-ourgame {
-        font-size: 30px;
-        line-height: 26px;
+        font-size: 26px;
+        line-height: 30px;
     }
     .title-client {
-        font-size: 30px;
+        font-size: 26px;
         line-height: 30px;
     }
 }

@@ -20,16 +20,16 @@ function Home() {
           <h4 id="slogan" className="show-pc">
             Creative IDEA - CREATE VALUES - PLAY FOR FUN - HAPPY CLIENTS
           </h4>
-          <h4 id="slogan" className="show-mb">
+          {/* <h4 id="slogan" className="show-mb">
             Creative IDEA, PLAY FOR FUN
-          </h4>
+          </h4> */}
           <h1 className="namecp-hp show-pc">
             WE ARE SOFTFUN <br></br>We bring Puzzle Joy
           </h1>
-          <h1 className="namecp-hp show-mb">SOFTFUN Games</h1>
-          <p id="slogan2" className="show-mb">
+          {/* <h1 className="namecp-hp show-mb">SOFTFUN Games</h1> */}
+          {/* <p id="slogan2" className="show-mb">
             Our games are vibrant worlds with charming characters
-          </p>
+          </p> */}
         </div>
         <div className="backgroundHome">
           <img src={Images.piggy} alt="" className="piggy" />

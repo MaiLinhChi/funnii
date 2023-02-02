@@ -17,10 +17,18 @@ function AboutPage() {
     <div className="AboutPage block">
       <div className="mobileDisplayBg">
         <h2>We are SOFTFUN</h2>
-        <p style={{ padding: "0 20px" }}>
-          An international digital games and entertainment company. A leader in
-          multiplayer games, with a purpose to ‘unleash the gamer in everyone’
-          with more than 4 billion downloads to date. Powered by amazing people.
+        <p className="des-about">
+          Softfun is a group of people who are passionate about games and have
+          the ambition to bring fun, entertaining, and valuable puzzle games to
+          people of all ages around the world through the creation of puzzle
+          games with high intelligence.
+        </p>
+        <br></br>
+        <p className="des-about">
+          Hyper Casual, Puzzle and Board games are the main game genres we focus
+          on on IOS and Android platforms. We promise to bring the highest game
+          quality to players through advanced game production models in the
+          world such as data technology and 3D modeling and graphics.
         </p>
       </div>
       <div className="bgInfo block ">
@@ -44,7 +52,7 @@ function AboutPage() {
         </div>
       </div>
       <div className="philosophy block">
-        <h2 className="show-pc">
+        <h2>
           We aim to <span className="color-about">inspire</span> rather than
           manage our employees
         </h2>

@@ -69,10 +69,8 @@ function GamePage() {
         <Discover title="DISCOVER SOFTFUN NEW ACHIEVEMENTS" />
       </div>
       <div className="topGame">
-        <h2 className="show-pc" style={{ marginBottom: 100 }}>
-          The Top Puzzle game of SOFTFUN
-        </h2>
-        <h2 className="show-mb">Top game</h2>
+        <h2 className="show-pc title-tg">The Top Puzzle game of SOFTFUN</h2>
+        {/* <h2 className="show-mb">Top game</h2> */}
         <p className="subtitle-topgame show-mb">
           SOFTFUN is one of the top 3 mobile gaming companies in the SEA
         </p>

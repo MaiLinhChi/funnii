@@ -26,7 +26,10 @@
     font-size: 50px;
     line-height: 61px;
     color: #1E1C31;
-    margin-bottom: 12px;
+}
+
+.title-tg {
+    margin-bottom: 100px;
 }
 
 .topGame p {
@@ -66,10 +69,6 @@
     left: 18px;
     right: 18px;
     bottom: 35px;
-}
-
-.gameInfo {
-    display: none;
 }
 
 .gameInfo h3 {
@@ -113,13 +112,17 @@
     transform: scale(1.1);
 }
 
-.cardGame:hover > .gameInfo {
-    display: block;
-}
-
 @media only screen and (max-width: 480px) {
+    .title-tg {
+        margin-bottom: 12px;
+    }
+
     .cardGame:hover {
         transform: scale(1);
+    }
+    .topGame h2 {
+        font-size: 26px;
+        line-height: 30px;
     }
     .topGame p {
         max-width: 250px;
